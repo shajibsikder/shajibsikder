@@ -1,7 +1,4 @@
-<p align="center" width="300">
-   <img align="center" width="200" src="https://user-images.githubusercontent.com/1561955/106762302-fda9de00-6635-11eb-99be-3ef744e60c0e.png" />
-   <h3 align="center">¡Hey 👋! Soy midudev 👨🏻‍💻</h3>
-</p>
+
 
 ---
 
@@ -9,18 +6,9 @@
 
 > **Radically empathetic technology illuminates our path to a just future**
 >
-> ✊🏻✊🏼✊🏽✊🏾✊🏿🏳️‍⚧️🇵🇸🏳️‍🌈
-
-<code>Full Stack Web Developer (PHP/Laravel/JavaScript)</code>
+> <code>Full Stack Web Developer (PHP/Laravel/JavaScript)</code>
 
 I'm a passionate full-stack web developer building my version of the digital world one step at a time. All projects are built from the ground up — from planning and designing, all the way to solving real-life problems with clean, scalable code. I specialize in **PHP & Laravel**, building powerful platforms like creator monetization systems, video sharing sites, membership platforms, and custom CMS solutions.
-
-<p align="center">
-  <img width=450 src="https://github-readme-stats-inky-five-53.vercel.app/api?username=pedrocatalao&count_private=true&hide_title=true&theme=transparent&hide_border=true&text_bold=false&show=reviews&rank_icon=github&hide=contribs&show_icons=true&ok=o44kjx21" />
-  <img  width=350 src="https://github-readme-stats-inky-five-53.vercel.app/api/top-langs/?username=pedrocatalao&count_private=true&layout=compact&theme=transparent&hide_title=true&hide_border=true&hide=Batchfile&langs_count=6&exclude_repo=juca&ok=o3jsss" />
-</p>
-
-Founder & CEO of **[Weekmotion](https://weekmotion.com)** — a growing digital platform focused on content creators, video publishing, and online monetization. Always learning, always building.
 
 [![Follow](https://img.shields.io/github/followers/shajibsikder?label=Follow&style=social)](https://github.com/shajibsikder)
 [![Stars](https://img.shields.io/github/stars/shajibsikder?label=Stars&style=social)](https://github.com/shajibsikder)
@@ -28,12 +16,26 @@ Founder & CEO of **[Weekmotion](https://weekmotion.com)** — a growing digital 
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@jagatbarta)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/shajibsikder)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+</picture>
+
+Founder & CEO of **[Weekmotion](https://weekmotion.com)** — a growing digital platform focused on content creators, video publishing, and online monetization. Always learning, always building.
+
+<p align="center">
+  <img width=450 src="https://github-readme-stats-inky-five-53.vercel.app/api?username=pedrocatalao&count_private=true&hide_title=true&theme=transparent&hide_border=true&text_bold=false&show=reviews&rank_icon=github&hide=contribs&show_icons=true&ok=o44kjx21" />
+  <img  width=350 src="https://github-readme-stats-inky-five-53.vercel.app/api/top-langs/?username=pedrocatalao&count_private=true&layout=compact&theme=transparent&hide_title=true&hide_border=true&hide=Batchfile&langs_count=6&exclude_repo=juca&ok=o3jsss" />
+</p>
+
 🔗 &nbsp;**Connect with me**
 
-| | | | | |
-|:--:|:--:|:--:|:--:|:--:|
-| <a href="https://dev.to/gautamkrishnar"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" width="40"></a> | <a href="https://twitter.com/gautamkrishnar"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" width="40"></a> | <a href="https://linkedin.com/in/gautamkrishnar"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="40"></a> | <a href="https://stackoverflow.com/users/4214976"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" width="40"></a> | <a href="https://instagram.com/gautamkrishnar"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="40"></a> |
-| | | | | |
+| | | | | | |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| <a href="https://dev.to/gautamkrishnar"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" width="40"></a> | <a href="https://twitter.com/gautamkrishnar"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" width="40"></a> | <a href="https://linkedin.com/in/gautamkrishnar"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="40"></a> | <a href="https://stackoverflow.com/users/4214976"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" width="40"></a> | <a href="https://instagram.com/gautamkrishnar"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="40"></a> | <a href="https://instagram.com/gautamkrishnar"><img src="https://cdn-icons-png.flaticon.com/512/1383/1383260.png" width="40"></a> | 
+| | | | | | |
+| | | | | | |
 
   - 🔭 Currently working on **Weekmotion** — a creator & video platform
   - 🌱 Currently learning **React.js & Next.js**
@@ -44,14 +46,6 @@ Founder & CEO of **[Weekmotion](https://weekmotion.com)** — a growing digital 
   - ⚡ Fun fact: **I Love Code**
 
 ---
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-</picture>
-
-_generated with [Platane/snk](https://github.com/Platane/snk)_
 
 ## My favorite tools and technologies ⚙️
 
@@ -320,9 +314,19 @@ I create most of my open-source projects to solve the challenges I encounter in 
   <img width='30%' src='https://img.youtube.com/vi/J6Tn0FgJ768/mqdefault.jpg' alt='OpenAI y Claude crean su propia consultora' />
 </a>
 
+<a href="https://www.youtube.com/watch?v=1lXaKEy97qE"><img src="https://ytcards.demolab.com/?id=1lXaKEy97qE&title=GitHub+Star+Swag+Unboxing+and+Giveaways&lang=en&timestamp=1696868769&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=130&border_radius=5&duration=172" alt="GitHub Star Swag Unboxing and Giveaways" title="GitHub Star Swag Unboxing and Giveaways"></a>
+<a href="https://www.youtube.com/watch?v=maoXtlb8t44"><img src="https://ytcards.demolab.com/?id=maoXtlb8t44&title=How+To+Self-Host+GitHub+Readme+Streak+Stats+on+Vercel&lang=en&timestamp=1693523015&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=130&border_radius=5&duration=257" alt="How To Self-Host GitHub Readme Streak Stats on Vercel" title="How To Self-Host GitHub Readme Streak Stats on Vercel"></a>
+<a href="https://www.youtube.com/watch?v=6u9BrDaSHJc"><img src="https://ytcards.demolab.com/?id=6u9BrDaSHJc&title=Automatically+Deploy+to+Fly.io+with+GitHub+Actions&lang=en&timestamp=1661864404&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=130&border_radius=5&duration=312" alt="Automatically Deploy to Fly.io with GitHub Actions" title="Automatically Deploy to Fly.io with GitHub Actions"></a>
+<a href="https://www.youtube.com/watch?v=J7Fm7MdZn_E"><img src="https://ytcards.demolab.com/?id=J7Fm7MdZn_E&title=Hosting+a+Python+Discord+Bot+for+Free+with+Fly.io&lang=en&timestamp=1661708747&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=150&border_radius=5&duration=403" alt="Hosting a Python Discord Bot for Free with Fly.io" title="Hosting a Python Discord Bot for Free with Fly.io"></a>
+<a href="https://www.youtube.com/watch?v=0p_eQGKFY3I"><img src="https://ytcards.demolab.com/?id=0p_eQGKFY3I&title=Making+a+Wordle+Clone+Discord+Bot+with+Python+%28Nextcord%29&lang=en&timestamp=1643900217&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=150&border_radius=5&duration=2115" alt="Making a Wordle Clone Discord Bot with Python (Nextcord)" title="Making a Wordle Clone Discord Bot with Python (Nextcord)"></a>
+<a href="https://www.youtube.com/watch?v=Mt_Bsj6K9Lw"><img src="https://ytcards.demolab.com/?id=Mt_Bsj6K9Lw&title=Run+Open+Source+Code+in+Seconds+with+GitPod&lang=en&timestamp=1642108413&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=150&border_radius=5&duration=578" alt="Run Open Source Code in Seconds with GitPod" title="Run Open Source Code in Seconds with GitPod"></a>
+
 > 🔔 Subscribe to **[Jagatbarta](https://youtube.com/@jagatbarta)** for the latest videos on web development and tech!
 
 ---
+
+
+
 
 📕 &nbsp;**Latest Blog Posts**
 <!-- BLOG-POST-LIST:START -->
