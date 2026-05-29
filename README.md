@@ -38,10 +38,34 @@ Founder & CEO of **[Weekmotion](https://weekmotion.com)** — a growing digital 
 
 ## 📺 Latest YouTube Videos
 
-<!-- BEGIN YOUTUBE-VIDEOS -->
-<!-- This section is auto-updated by GitHub Actions every 6 hours -->
-[![YouTube Channel](https://img.shields.io/badge/▶_Visit_Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@jagatbarta)
-<!-- END YOUTUBE-VIDEOS -->
+<table>
+  <tr>
+    <!-- ========== VIDEO 1 ========== -->
+    <td align="center" width="33%">
+      <a href="AUrFWdVLNrs">
+        <img src="[https://img.youtube.com/vi/YOUR_VIDEO_1_ID_HERE/mqdefault.jpg]([https://img.youtube.com/vi/AUrFWdVLNrs/maxresdefault.jpg](https://img.youtube.com/vi/AUrFWdVLNrs/maxresdefault.jpg))" alt="Video 1" width="250px" />
+        <br />
+        <b>YOUR VIDEO 1 TITLE HERE</b>
+      </a>
+    </td>
+    <!-- ========== VIDEO 2 ========== -->
+    <td align="center" width="33%">
+      <a href="AUrFWdVLNrs">
+        <img src="[https://img.youtube.com/vi/AUrFWdVLNrs/mqdefault.jp](https://img.youtube.com/vi/AUrFWdVLNrs/maxresdefault.jpg)" alt="Video 2" width="250px" />
+        <br />
+        <b>YOUR VIDEO 2 TITLE HERE</b>
+      </a>
+    </td>
+    <!-- ========== VIDEO 3 ========== -->
+    <td align="center" width="33%">
+      <a href="AUrFWdVLNrs">
+        <img src="https://img.youtube.com/vi/AUrFWdVLNrs/mqdefault.jpg" alt="Video 3" width="250px" />
+        <br />
+        <b>YOUR VIDEO 3 TITLE HERE</b>
+      </a>
+    </td>
+  </tr>
+</table>
 
 > 🔔 Subscribe to **[Jagatbarta](https://youtube.com/@jagatbarta)** for the latest videos on web development and tech!
 
