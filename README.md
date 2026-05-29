@@ -7,11 +7,17 @@
 
 I'm a passionate full-stack web developer focused on building modern digital platforms from the ground up — from planning and UI design to backend architecture and scalable deployment. I specialize in **PHP & Laravel**, developing creator monetization systems, video sharing platforms, membership solutions, and custom CMS applications with performance, security, and user experience in mind.
 
-[![Follow](https://img.shields.io/github/followers/shajibsikder?label=Follow&style=social)](https://github.com/shajibsikder)
-[![Stars](https://img.shields.io/github/stars/shajibsikder?label=Stars&style=social)](https://github.com/shajibsikder)
-[![Facebook](https://img.shields.io/badge/Facebook-Follow-1877F2?style=flat&logo=facebook&logoColor=white)](https://facebook.com/shajibno1)
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@jagatbarta)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/shajibsikder)
+<p align="left" style="background-color: #000000;">
+  <a href="https://weekmotion.com/service" target="_blank">
+  <img src="https://img.shields.io/badge/weekmotion-FF5400?style=for-the-badge&logo=firefox&logoColor=white" />
+  </a>
+  <a href="https://dev.to/shajibsikder" target="_blank">
+    <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to"/>
+  </a>
+  <a href="https://leetcode.com/u/shajibsikder/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-F89F1B?style=for-the-badge&logo=leetcode&logoColor=white" />
+  </a>
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
