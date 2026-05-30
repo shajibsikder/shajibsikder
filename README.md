@@ -1,5 +1,4 @@
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=180&color=0:050A14,100:0A192F&text=MD%20SHAJIB%20SIKDER&fontSize=40&fontColor=FFFFFF&fontAlignY=40&desc=Software%20Engineer%20%7C%20Frontend%20Specialist&descSize=16&descColor=A1A1AA&descAlignY=65&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=200&color=0:050A14,50:0B1220,100:111827&text=MD%20SHAJIB%20SIKDER&fontSize=40&fontColor=E5E7EB&fontAlignY=40&desc=Building%20Modern%20Web%20Apps%20%7C%20Clean%20Code%20%7C%20Performance%20Focused&descSize=14&descColor=9CA3AF&descAlignY=65&animation=twinkling" />
 
 > **Building scalable digital platforms with innovation, creativity, and clean architecture**
 >
@@ -321,6 +320,4 @@ I create products not only to improve my skills, but also to solve meaningful pr
 ## Recent GitHub Activity ✅
 
 ![Metrics](https://metrics.lecoq.io/rzashakeri?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&activity=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&activity=false&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=true&activity.filter=all&config.timezone=Asia%2FTehran)
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=160&color=0:050A14,100:0A192F&text=THANK%20YOU%20FOR%20VISITING&fontSize=34&fontColor=FFFFFF&fontAlignY=40&desc=MD%20SHAJIB%20SIKDER%20%7C%20KEEP%20BUILDING%20💻&descSize=16&descColor=A1A1AA&descAlignY=65&animation=fadeIn" />
 
