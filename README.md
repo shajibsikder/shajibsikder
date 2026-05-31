@@ -7,8 +7,7 @@
   <img  width=350 src="https://github-readme-stats-inky-five-53.vercel.app/api/top-langs/?username=shajibsikder&count_private=true&layout=compact&theme=transparent&hide_title=true&hide_border=true&hide=Batchfile&langs_count=6&exclude_repo=juca&ok=o3jsss" />
 </p>
 
-
-MD Shajib Sikder is a Full Stack Web Developer and Founder of Weekmotion, specializing in scalable web applications, creator economy platforms, SaaS products, and custom software solutions.
+<b>MD Shajib Sikder</b> is a Full Stack Web Developer and Founder of Weekmotion, specializing in scalable web applications, creator economy platforms, SaaS products, and custom software solutions.
 
 With hands-on experience in PHP, Laravel, JavaScript, MySQL, REST APIs, and modern web technologies, I focus on building secure, performance-oriented, and user-centric digital products that solve real-world problems.
 
