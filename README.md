@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=200&color=0:050A14,50:0B1220,100:111827&text=MD%20SHAJIB%20SIKDER&fontSize=40&fontColor=E5E7EB&fontAlignY=40&desc=Building%20Modern%20Web%20Apps%20%7C%20Clean%20Code%20%7C%20Performance%20Focused&descSize=14&descColor=9CA3AF&descAlignY=65&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=200&color=0:050A14,50:0B1220,100:111827&text=MD%20SHAJIB%20SIKDER&fontSize=70&fontColor=E5E7EB&fontAlignY=40&desc=Building%20Modern%20Web%20Apps%20%7C%20Clean%20Code%20%7C%20Performance%20Focused&descSize=25&descColor=9CA3AF&descAlignY=65&animation=twinkling" />
 
 
 
@@ -260,6 +260,30 @@ Some areas I actively focus on:
 
 I create products not only to improve my skills, but also to solve meaningful problems and build useful digital ecosystems for real users.
 
+
+## 🏆 Client Projects Delivered
+
+> A selection of real-world projects built and delivered through **[Weekmotion Tech](https://weekmotion.com/service)**.
+
+| Project & Category | Core System Architecture & Features | Action |
+| :--- | :--- | :---: |
+| 📰 **Jagatbarta News**<br>`News Portal` | Full-featured publishing architecture with user accounts, custom CMS, and multi-author profile management. | [Visit Site ↗](https://jagatbarta.top/) |
+| 🏥 **All Doctors Khulna**<br>`Healthcare` | Dynamic doctor listing, scheduling, and serial management platform tailored for medical professionals. | [Visit Site ↗](https://alldoctorskhulna.com/) |
+| 📦 **Microloop Script**<br>`SaaS Product` | Micro-job & freelance marketplace engine, successfully commercialized on the Codester platform. | [View Product ↗](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
+| 💻 **AR Creative Tech**<br>`IT Services` | Agency storefront highlighting modern UI/UX design standards and high-performance lead generation. | [Visit Site ↗](https://arcreativetechnology.com/) |
+| 💻 **DBN IT Service**<br>`IT Services` | Complete corporate platform built with an emphasis on fast conversion rates and clean UX. | [Visit Site ↗](https://www.dbnit.com/) |
+| 📰 **DBN News Bangla**<br>`News Portal` | High-traffic Bengali news portal integrated with advanced category controls and publishing workflows. | [Visit Site ↗](https://dbnnews.com/) |
+| 📰 **Doyel24 News**<br>`News Portal` | Optimized news distribution system focusing on user engagement and minimal latency. | [Visit Site ↗](https://doyel24.com/) |
+| 📰 **Prime Tribune**<br>`News Portal` | International-standard digital news platform boasting a sleek interface and scalable media storage. | [Visit Site ↗](https://primetribune.net/) |
+
+---
+
+### 🛠️ Core Stack Deployed Across Projects
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![REST API](https://img.shields.io/badge/REST%20API-FF6B6B?style=flat-square&logo=postman&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+
+> 📌 **Weekmotion Tech:** Trade Licensed · DUNS Registered · Serving clients since 2018
+> 🔗 See full portfolio: **[weekmotion.com/service](https://weekmotion.com/service)**
+
  
 
 ### 🎯 Personal Development Goals
@@ -274,71 +298,25 @@ I create products not only to improve my skills, but also to solve meaningful pr
 
  
 
-### 📚 Learning Journey
-
-| Topic | Progress |
-| :-- | :--: |
-| **React.js & Next.js** | ███████░░░ 70% |
-| **Advanced Laravel Architecture** | ████████░░ 80% |
-| **System Design Concepts** | █████░░░░░ 50% |
-| **Docker & DevOps Basics** | ██████░░░░ 60% |
-
- 
-
 ### 💼 Highlight Projects
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://weekmotion.com">
-        <img src="https://img.shields.io/badge/🎬%20Weekmotion-Creator%20Platform-2CA5E0?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-      <br/><br/>
-      <i>Video publishing and creator monetization platform with memberships, subscriptions, digital product marketplace, watch & earn rewards, paid ads system, and digital creator tools. Founded 2018 — built independently from idea to production.</i>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://weekmotion.com/service">
-        <img src="https://img.shields.io/badge/⚙️%20Weekmotion%20Tech-Software%20Services-20C997?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-      <br/><br/>
-      <i>Software development services — custom web apps, CMS systems, REST APIs, scalable backend architecture, and SaaS platform development. Multiple client projects delivered across news media, healthcare, business, and SaaS sectors. since 2018.</i>
-    </td>
-  </tr>
-</table>
+> ## 🎬 [Weekmotion Creator Platform](https://weekmotion.com)
+> **Founder & Lead Developer • 2018 – Present**
+> 
+> A robust video publishing and creator monetization ecosystem built independently from concept to production.
+> - 💰 **Monetization:** Tiered memberships, recurring subscriptions, and a digital product marketplace.
+> - 🎁 **Engagement:** Integrated watch-and-earn rewards engine paired with a custom-built paid ads system.
+> - 🛠️ **Creator Tools:** Advanced dashboard analytics, video management, and distribution infrastructure.
 
- 
+<br/>
 
-## 🏆 Client Projects Delivered
-
-> A selection of real-world projects built and delivered by me through **[Weekmotion Tech](https://weekmotion.com/service)** — serving clients across Bangladesh and beyond.
-
-| # | Project | Type | Description | Live |
-|:--:|:--|:--:|:--|:--:|
-| 01 | **Jagatbarta News** | News Portal | Full news platform where users create accounts, publish articles, manage profiles, and engage with a digital audience | [→](https://jagatbarta.top/) |
-| 02 | **All Doctors Khulna** | Healthcare | Modern Doctor Listing & Serial Management Platform for hospitals and doctors in Bangladesh | [→](https://alldoctorskhulna.com/) |
-| 03 | **AR Creative Technology** | IT Services | Modern IT Service Provider Website with professional design and performance | [→](https://arcreativetechnology.com/) |
-| 04 | **DBN IT Service** | IT Services | Complete IT Service Provider Website with modern design and user-friendly features | [→](https://www.dbnit.com/) |
-| 05 | **DBN News Bangla** | News Portal | Full-featured Bengali news portal with CMS, category management, and publishing tools | [→](https://dbnnews.com/) |
-| 06 | **Doyel24 News** | News Portal | Modern news management and reader experience platform | [→](https://doyel24.com/) |
-| 07 | **Prime Tribune** | News Portal | Professional news platform with modern UI and content management | [→](https://primetribune.net/) |
-| 08 | **Microloop Script** | SaaS Product | Micro Job & Freelance Platform — sold as a script product on Codester marketplace | [→](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
-
-**Services delivered across projects:**
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-FF6B6B?style=flat-square&logo=postman&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-
-> 📌 Weekmotion Tech: Trade Licensed · DUNS Registered · Serving clients since 2018
->
-> 🔗 See full portfolio: **[weekmotion.com/service](https://weekmotion.com/service)**
-
- 
+> ## ⚙️ [Weekmotion Tech Software Services](https://weekmotion.com/service)
+> **Software Architecture & Development**
+> 
+> Delivering high-performance, custom web applications and scalable enterprise solutions since 2018.
+> - 🏗️ **Core Engineering:** Scalable backend architectures, bespoke CMS setups, and high-throughput REST APIs.
+> - 💼 **Industry Impact:** Successfully shipped production-ready platforms across news media, healthcare, and B2B SaaS sectors.
+> - ⚡ **Focus:** Maximizing execution speed, modular code design, and robust API integrations.
 
 ### 📹 Latest Content & Videos
 
