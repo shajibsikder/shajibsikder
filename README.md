@@ -1,18 +1,16 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=200&color=0:050A14,50:0B1220,100:111827&text=MD%20SHAJIB%20SIKDER&fontSize=70&fontColor=E5E7EB&fontAlignY=40&desc=Backend%20Infrastructure%20%7C%20High%20Performance%20%7C%20Scalable%20Systems&descSize=25&descColor=9CA3AF&descAlignY=65&animation=twinkling" />
 
-### 👨‍💻 About Me
+Systems-focused Full Stack Software Engineer specializing in scalable backend architecture, high-performance APIs, and distributed web applications.
 
-MD Shajib Sikder is a Systems-focused Full Stack Web Engineer and Software Architect specializing in designing high-concurrency application ecosystems, custom CMS frameworks, and scalable backend infrastructures. 
+Since 2017, I have been building production-grade systems with a strong focus on clean architecture, database optimization, and backend performance. I design and develop stateless REST APIs, scalable infrastructures, and reliable backend systems for real-world use cases.
 
-Since 2017, my core engineering focus has revolved around database performance tuning, writing secure stateless REST APIs, eliminating memory bottlenecks, and optimizing query execution speeds. While I am the technical founder of the Weekmotion platform, my primary expertise lies in solving complex backend challenges, implementing distributed caching strategies, and automating heavy computational tasks via background workers to deliver bulletproof, maintainable software systems.
+Currently working on large-scale platform development under Weekmotion.
 
-> ⚡ *Technology should create scalable solutions, optimize system workflows, and deliver long-term architectural value through clean, performant code.*
+> ⚡ *I focus on building simple, scalable, and maintainable systems that solve real engineering problems.*
 
 ---
 
-### 🔗 Connect With Me
-
-<p align="center">
+<p align="left">
   <a href="https://linkedin.com/in/shajibsikder" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" height="28" /></a>&nbsp;
   <a href="https://leetcode.com/u/shajibsikder/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" height="28" /></a>&nbsp;
   <a href="https://dev.to/shajibsikder" target="_blank"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=flat-square&logo=devdotto&logoColor=white" height="28" /></a>&nbsp;
@@ -25,13 +23,6 @@ Since 2017, my core engineering focus has revolved around database performance t
   <a href="https://weekmotion.com/service" target="_blank"><img src="https://img.shields.io/badge/Weekmotion_Tech-FF5400?style=flat-square&logo=firefox&logoColor=white" height="28" /></a>&nbsp;
   <a href="mailto:im.mdshajib@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" height="28" /></a>
 </p>
-
-🔗 &nbsp;**Connect with me**
-
-| | | | | | | | | 
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| <a href="https://linkedin.com/in/shajibsikder"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="40"></a> | <a href="https://facebook.com/shajibno1"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" width="40"></a> | <a href="https://www.codester.com/weekmotion/"><img src="https://www.codester.com/static/img/content/logo-icon.png" width="40"></a> | <a href="https://wikigenius.org/wiki/Md_Shajib_Sikder"><img src="https://wikigenius.org/images/thumb/2/2c/Wikigenius.png/299px-Wikigenius.png" width="40"></a> | <a href="https://instagram.com/shajibno1"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="40"></a> | <a href="https://weekmotion.com/service"><img src="https://cdn-icons-png.flaticon.com/512/8036/8036117.png" width="40"></a> | <a href="https://www.pinterest.com/shajibsikder1/"><img src="https://cdn-icons-png.flaticon.com/512/2504/2504932.png" width="40"></a> | <a href="https://www.youtube.com/@jagatbarta"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="40"></a> |
-| LinkedIn | Facebook | Codester | WikiGenius | Instagram | Weekmotion | Pinterest | YouTube |
 
 ---
 
@@ -53,7 +44,7 @@ Since 2017, my core engineering focus has revolved around database performance t
     <td align="center" width="96"><img src="https://techstack-generator.vercel.app/docker-icon.svg" width="45" /><br>Docker</td>
     <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Redis-Dark.svg" width="45" /><br>Redis</td>
     <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg" width="45" /><br>Git</td>
-    <td align="center" width="96"><img src="https://techstack-generator.vercel.app/github-icon.svg" width="45" /><br>GitHub</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg" width="45" /><br>GitHub</td>
     <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VSCode-Dark.svg" width="45" /><br>VSCode</td>
   </tr>
 </table>
@@ -95,7 +86,3 @@ Since 2017, my core engineering focus has revolved around database performance t
 - 🎯 **Domain Knowledge Queries:** Laravel core internals, query execution optimization, memory-layer caching configurations (Redis), and stateless REST APIs.
 - 📍 **Location:** Gazipur, Dhaka, Bangladesh
 - ✉️ **Secure Contact Gateway:** **im.mdshajib@gmail.com**
-
-<p align="center">
-  <sub><i>Profile metrics generated dynamically via upstream GitHub Engine API hooks. Maintained with deep engineering interest since 2017.</i></sub>
-</p>
