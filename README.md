@@ -267,14 +267,14 @@ I create products not only to improve my skills, but also to solve meaningful pr
 
 | Project & Category | Core System Architecture & Features | Action |
 | :--- | :--- | :---: |
-| 📰 **Jagatbarta News**<br>`News Portal` | Full-featured publishing architecture with user accounts, custom CMS, and multi-author profile management. | [Visit Site ↗](https://jagatbarta.top/) |
-| 🏥 **All Doctors Khulna**<br>`Healthcare` | Dynamic doctor listing, scheduling, and serial management platform tailored for medical professionals. | [Visit Site ↗](https://alldoctorskhulna.com/) |
-| 📦 **Microloop Script**<br>`SaaS Product` | Micro-job & freelance marketplace engine, successfully commercialized on the Codester platform. | [View Product ↗](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
-| 💻 **AR Creative Tech**<br>`IT Services` | Agency storefront highlighting modern UI/UX design standards and high-performance lead generation. | [Visit Site ↗](https://arcreativetechnology.com/) |
-| 💻 **DBN IT Service**<br>`IT Services` | Complete corporate platform built with an emphasis on fast conversion rates and clean UX. | [Visit Site ↗](https://www.dbnit.com/) |
-| 📰 **DBN News Bangla**<br>`News Portal` | High-traffic Bengali news portal integrated with advanced category controls and publishing workflows. | [Visit Site ↗](https://dbnnews.com/) |
-| 📰 **Doyel24 News**<br>`News Portal` | Optimized news distribution system focusing on user engagement and minimal latency. | [Visit Site ↗](https://doyel24.com/) |
-| 📰 **Prime Tribune**<br>`News Portal` | International-standard digital news platform boasting a sleek interface and scalable media storage. | [Visit Site ↗](https://primetribune.net/) |
+| 📰 **Jagatbarta News**<br>`News Portal` | Full-featured publishing architecture with user accounts, custom CMS, and multi-author profile management. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://jagatbarta.top/) |
+| 🏥 **All Doctors Khulna**<br>`Healthcare` | Dynamic doctor listing, scheduling, and serial management platform tailored for medical professionals. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://alldoctorskhulna.com/) |
+| 📦 **Microloop Script**<br>`SaaS Product` | Micro-job & freelance marketplace engine, successfully commercialized on the Codester platform. | [![View Product](https://img.shields.io/badge/View_Product_↗-FF5722?style=flat-square)](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
+| 💻 **AR Creative Tech**<br>`IT Services` | Agency storefront highlighting modern UI/UX design standards and high-performance lead generation. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://dbnnews.com/) |
+| 💻 **DBN IT Service**<br>`IT Services` | Complete corporate platform built with an emphasis on fast conversion rates and clean UX. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://primetribune.net/) |
+| 📰 **DBN News Bangla**<br>`News Portal` | High-traffic Bengali news portal integrated with advanced category controls and publishing workflows. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://doyel24.com/) |
+| 📰 **Doyel24 News**<br>`News Portal` | Optimized news distribution system focusing on user engagement and minimal latency. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://arcreativetechnology.com/) |
+| 📰 **Prime Tribune**<br>`News Portal` | International-standard digital news platform boasting a sleek interface and scalable media storage. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://www.dbnit.com/) |
 
 ---
 
