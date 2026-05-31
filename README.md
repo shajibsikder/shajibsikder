@@ -1,28 +1,14 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=200&color=0:050A14,50:0B1220,100:111827&text=MD%20SHAJIB%20SIKDER&fontSize=70&fontColor=E5E7EB&fontAlignY=40&desc=Building%20Modern%20Web%20Apps%20%7C%20Clean%20Code%20%7C%20Performance%20Focused&descSize=25&descColor=9CA3AF&descAlignY=65&animation=twinkling" />
 
-
-
-<p align="center">
-  <img width=450 src="https://github-readme-stats-inky-five-53.vercel.app/api?username=shajibsikder&count_private=true&hide_title=true&theme=transparent&hide_border=true&text_bold=false&show=reviews&rank_icon=github&hide=contribs&show_icons=true&ok=o44kjx21" />
-  <img  width=350 src="https://github-readme-stats-inky-five-53.vercel.app/api/top-langs/?username=shajibsikder&count_private=true&layout=compact&theme=transparent&hide_title=true&hide_border=true&hide=Batchfile&langs_count=6&exclude_repo=juca&ok=o3jsss" />
-</p>
-
 <b>MD Shajib Sikder</b> is a Full Stack Web Developer and Founder of Weekmotion, specializing in scalable web applications, creator economy platforms, SaaS products, and custom software solutions.
 
 With hands-on experience in PHP, Laravel, JavaScript, MySQL, REST APIs, and modern web technologies, I focus on building secure, performance-oriented, and user-centric digital products that solve real-world problems.
 
 My core expertise includes creator monetization systems, video publishing platforms, membership and subscription solutions, SaaS applications, and custom CMS development.
 
-<p align="left">
-  <a href="https://weekmotion.com/service" target="_blank">
-    <img src="https://img.shields.io/badge/weekmotion-FF5400?style=for-the-badge&logo=firefox&logoColor=white" />
-  </a>
-  <a href="https://dev.to/shajibsikder" target="_blank">
-    <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to"/>
-  </a>
-  <a href="https://leetcode.com/u/shajibsikder/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-F89F1B?style=for-the-badge&logo=leetcode&logoColor=white" />
-  </a>
+<p align="center">
+  <img width=450 src="https://github-readme-stats-inky-five-53.vercel.app/api?username=shajibsikder&count_private=true&hide_title=true&theme=transparent&hide_border=true&text_bold=false&show=reviews&rank_icon=github&hide=contribs&show_icons=true&ok=o44kjx21" />
+  <img  width=350 src="https://github-readme-stats-inky-five-53.vercel.app/api/top-langs/?username=shajibsikder&count_private=true&layout=compact&theme=transparent&hide_title=true&hide_border=true&hide=Batchfile&langs_count=6&exclude_repo=juca&ok=o3jsss" />
 </p>
 
 I am passionate about designing scalable architectures and high-performance systems that deliver meaningful and long-term digital value.
@@ -50,18 +36,18 @@ What started as an idea in 2017 evolved into an independent software project in 
 | <a href="https://linkedin.com/in/shajibsikder"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="40"></a> | <a href="https://facebook.com/shajibno1"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" width="40"></a> | <a href="https://www.codester.com/weekmotion/"><img src="https://www.codester.com/static/img/content/logo-icon.png" width="40"></a> | <a href="https://wikigenius.org/wiki/Md_Shajib_Sikder"><img src="https://wikigenius.org/images/thumb/2/2c/Wikigenius.png/299px-Wikigenius.png" width="40"></a> | <a href="https://instagram.com/shajibno1"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="40"></a> | <a href="https://weekmotion.com/service"><img src="https://cdn-icons-png.flaticon.com/512/8036/8036117.png" width="40"></a> | <a href="https://www.pinterest.com/shajibsikder1/"><img src="https://cdn-icons-png.flaticon.com/512/2504/2504932.png" width="40"></a> | <a href="https://www.youtube.com/@jagatbarta"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="40"></a> |
 | LinkedIn | Facebook | Codester | WikiGenius | Instagram | Weekmotion | Pinterest | YouTube |
 
-- 🔭 Currently working on **Weekmotion** — Creator & Video Platform
-- 🌱 Currently learning **React.js, Next.js & Scalable System Design**
-- 👯 Looking to collaborate on **Web Development & SaaS Projects**
-- 💬 Ask me about **PHP, Laravel, MySQL, REST APIs & CMS Development**
-- 📫 Reach me: **im.mdshajib@gmail.com**
-- 🌍 Location: **Gazipur, Dhaka, Bangladesh**
-- 🧑‍💻 Programming & Product Development Since **2017**
-- ⚡ Fun fact: **I love turning ideas into real digital products**
+- Currently working on **Weekmotion** — Creator & Video Platform
+- Currently learning **React.js, Next.js & Scalable System Design**
+- Looking to collaborate on **Web Development & SaaS Projects**
+- Ask me about **PHP, Laravel, MySQL, REST APIs & CMS Development**
+- Reach me: **im.mdshajib@gmail.com**
+- Location: **Gazipur, Dhaka, Bangladesh**
+- Programming & Product Development Since **2017**
+- Fun fact: **I love turning ideas into real digital products**
 
  
 
-## My favorite tools and technologies ⚙️
+<h2>My favorite tools and technologies ⚙️</h2>
 
 > Technologies and tools I actively use for building modern, scalable, and user-focused applications
 
@@ -164,7 +150,24 @@ What started as an idea in 2017 evolved into an independent software project in 
   </tr>
 </table>
 
- 
+>  **🏆 Client Projects Delivered:** </h2> A selection of real-world projects built and delivered through **[Weekmotion Tech](https://weekmotion.com/service)**.
+
+| Project & Category | Core System Architecture & Features | Action |
+| :--- | :--- | :---: |
+| 📰 **Jagatbarta News**<br>`News Portal` | Full-featured publishing architecture with user accounts, custom CMS, and multi-author profile management. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://jagatbarta.top/) |
+| 🏥 **All Doctors Khulna**<br>`Healthcare` | Dynamic doctor listing, scheduling, and serial management platform tailored for medical professionals. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://alldoctorskhulna.com/) |
+| 📦 **Microloop Script**<br>`SaaS Product` | Micro-job & freelance marketplace engine, successfully commercialized on the Codester platform. | [![View Product](https://img.shields.io/badge/View_Product_↗-FF5722?style=flat-square)](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
+| 💻 **AR Creative Tech**<br>`IT Services` | Agency storefront highlighting modern UI/UX design standards and high-performance lead generation. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://dbnnews.com/) |
+| 💻 **DBN IT Service**<br>`IT Services` | Complete corporate platform built with an emphasis on fast conversion rates and clean UX. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://primetribune.net/) |
+| 📰 **DBN News Bangla**<br>`News Portal` | High-traffic Bengali news portal integrated with advanced category controls and publishing workflows. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://doyel24.com/) |
+| 📰 **Doyel24 News**<br>`News Portal` | Optimized news distribution system focusing on user engagement and minimal latency. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://arcreativetechnology.com/) |
+| 📰 **Prime Tribune**<br>`News Portal` | International-standard digital news platform boasting a sleek interface and scalable media storage. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://www.dbnit.com/) |
+
+---
+
+> 📌 **Weekmotion Tech:** Trade Licensed · DUNS Registered · Serving clients since 2018
+> 🔗 See full portfolio: **[weekmotion.com/service](https://weekmotion.com/service)**
+
 
 <p align="left">
   A collection of projects built with focus on scalability, developer experience, and real-world impact.
@@ -210,11 +213,19 @@ What started as an idea in 2017 evolved into an independent software project in 
 
 
 
-### ✨ About Me
+**About Me:** I am a Full Stack Web Developer with a strong focus on building scalable platforms, business applications, and creator-focused digital products. My work combines clean architecture, secure backend development, performance optimization, and modern user experiences. I enjoy transforming ideas into production-ready solutions that are reliable, maintainable, and designed for long-term growth.
 
-I am a Full Stack Web Developer with a strong focus on building scalable platforms, business applications, and creator-focused digital products.
-
-My work combines clean architecture, secure backend development, performance optimization, and modern user experiences. I enjoy transforming ideas into production-ready solutions that are reliable, maintainable, and designed for long-term growth.
+<p align="left">
+  <a href="https://weekmotion.com/service" target="_blank">
+    <img src="https://img.shields.io/badge/weekmotion-FF5400?style=for-the-badge&logo=firefox&logoColor=white" />
+  </a>
+  <a href="https://dev.to/shajibsikder" target="_blank">
+    <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to"/>
+  </a>
+  <a href="https://leetcode.com/u/shajibsikder/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-F89F1B?style=for-the-badge&logo=leetcode&logoColor=white" />
+  </a>
+</p>
 
 Areas I specialize in include:
 
@@ -248,8 +259,8 @@ My approach to development focuses on solving meaningful problems, creating sust
   <img width='30%' src='https://img.youtube.com/vi/J6Tn0FgJ768/mqdefault.jpg' alt='Video 3' />
 </a>
 
-Some areas I actively focus on:
 
+Some areas I actively focus on:
 - Backend architecture with Laravel
 - Secure authentication systems
 - Performance optimization
@@ -260,46 +271,6 @@ Some areas I actively focus on:
 
 I create products not only to improve my skills, but also to solve meaningful problems and build useful digital ecosystems for real users.
 
-
-## 🏆 Client Projects Delivered
-
-> A selection of real-world projects built and delivered through **[Weekmotion Tech](https://weekmotion.com/service)**.
-
-| Project & Category | Core System Architecture & Features | Action |
-| :--- | :--- | :---: |
-| 📰 **Jagatbarta News**<br>`News Portal` | Full-featured publishing architecture with user accounts, custom CMS, and multi-author profile management. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://jagatbarta.top/) |
-| 🏥 **All Doctors Khulna**<br>`Healthcare` | Dynamic doctor listing, scheduling, and serial management platform tailored for medical professionals. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://alldoctorskhulna.com/) |
-| 📦 **Microloop Script**<br>`SaaS Product` | Micro-job & freelance marketplace engine, successfully commercialized on the Codester platform. | [![View Product](https://img.shields.io/badge/View_Product_↗-FF5722?style=flat-square)](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
-| 💻 **AR Creative Tech**<br>`IT Services` | Agency storefront highlighting modern UI/UX design standards and high-performance lead generation. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://dbnnews.com/) |
-| 💻 **DBN IT Service**<br>`IT Services` | Complete corporate platform built with an emphasis on fast conversion rates and clean UX. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://primetribune.net/) |
-| 📰 **DBN News Bangla**<br>`News Portal` | High-traffic Bengali news portal integrated with advanced category controls and publishing workflows. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://doyel24.com/) |
-| 📰 **Doyel24 News**<br>`News Portal` | Optimized news distribution system focusing on user engagement and minimal latency. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://arcreativetechnology.com/) |
-| 📰 **Prime Tribune**<br>`News Portal` | International-standard digital news platform boasting a sleek interface and scalable media storage. | [![Visit Site](https://img.shields.io/badge/Visit_Site_↗-2CA5E0?style=flat-square)](https://www.dbnit.com/) |
-
----
-
-### 🛠️ Core Stack Deployed Across Projects
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![REST API](https://img.shields.io/badge/REST%20API-FF6B6B?style=flat-square&logo=postman&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-
-> 📌 **Weekmotion Tech:** Trade Licensed · DUNS Registered · Serving clients since 2018
-> 🔗 See full portfolio: **[weekmotion.com/service](https://weekmotion.com/service)**
-
- 
-
-### 🎯 Personal Development Goals
-
-| Goal | Status |
-| :-- | :--: |
-| 🚀 Expand **Weekmotion Platform** | 🟢 *Actively Building* |
-| ☁️ Improve **Cloud Deployment Skills** | 🟡 *Learning* |
-| 🧠 Master **Scalable System Design** | 🟠 *In Progress* |
-| ⚙️ Optimize applications for **performance & security** | 🟢 *Ongoing* |
-| 📦 Build more **production-ready SaaS systems** | 🟡 *In Development* |
-
- 
-
-### 💼 Highlight Projects
-
 > ## 🎬 [Weekmotion Creator Platform](https://weekmotion.com)
 > **Founder & Lead Developer • 2018 – Present**
 > 
@@ -307,8 +278,6 @@ I create products not only to improve my skills, but also to solve meaningful pr
 > - 💰 **Monetization:** Tiered memberships, recurring subscriptions, and a digital product marketplace.
 > - 🎁 **Engagement:** Integrated watch-and-earn rewards engine paired with a custom-built paid ads system.
 > - 🛠️ **Creator Tools:** Advanced dashboard analytics, video management, and distribution infrastructure.
-
-<br/>
 
 > ## ⚙️ [Weekmotion Tech Software Services](https://weekmotion.com/service)
 > **Software Architecture & Development**
