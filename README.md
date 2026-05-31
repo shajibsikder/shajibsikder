@@ -4,12 +4,12 @@
 
 With hands-on experience in PHP, Laravel, JavaScript, MySQL, REST APIs, and modern web technologies, I focus on building secure, performance-oriented, and user-centric digital products that solve real-world problems.
 
-My core expertise includes creator monetization systems, video publishing platforms, membership and subscription solutions, SaaS applications, and custom CMS development.
-
 <p align="center">
   <img width=450 src="https://github-readme-stats-inky-five-53.vercel.app/api?username=shajibsikder&count_private=true&hide_title=true&theme=transparent&hide_border=true&text_bold=false&show=reviews&rank_icon=github&hide=contribs&show_icons=true&ok=o44kjx21" />
   <img  width=350 src="https://github-readme-stats-inky-five-53.vercel.app/api/top-langs/?username=shajibsikder&count_private=true&layout=compact&theme=transparent&hide_title=true&hide_border=true&hide=Batchfile&langs_count=6&exclude_repo=juca&ok=o3jsss" />
 </p>
+
+My core expertise includes creator monetization systems, video publishing platforms, membership and subscription solutions, SaaS applications, and custom CMS development.
 
 I am passionate about designing scalable architectures and high-performance systems that deliver meaningful and long-term digital value.
 
@@ -21,7 +21,7 @@ Currently, I continue to expand Weekmotion while exploring modern technologies, 
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
 </picture>
 
-Founder & CEO of Weekmotion — a creator-focused digital platform dedicated to video publishing, creator monetization, memberships, digital products, and online communities.
+<b>Founder & CEO of Weekmotion</b> — a creator-focused digital platform dedicated to video publishing, creator monetization, memberships, digital products, and online communities.
 
 > **Building scalable digital platforms with innovation, creativity, and clean architecture**
 >
@@ -224,17 +224,6 @@ What started as an idea in 2017 evolved into an independent software project in 
   </a>
 </p>
 
-Areas I specialize in include:
-
-- Video Publishing Platforms
-- Creator Monetization Systems
-- Membership & Subscription Platforms
-- SaaS Applications
-- Custom CMS Development
-- REST API Integrations
-- Scalable Backend Systems
-- Digital Product Platforms
-
 I believe technology should empower people, simplify workflows, and create new opportunities for businesses and creators worldwide.
  
 
@@ -243,8 +232,6 @@ I believe technology should empower people, simplify workflows, and create new o
 Most of my projects have been developed independently, from initial concept and system architecture to deployment and long-term maintenance.
 
 Since starting my programming journey in 2017, I have continuously explored new technologies, development methodologies, and scalable software architectures. Through building Weekmotion and delivering client projects, I have gained practical experience in creating real-world applications that prioritize performance, security, maintainability, and user experience.
-
-My approach to development focuses on solving meaningful problems, creating sustainable products, and continuously improving both technical and business knowledge.
 
 <a href='https://youtu.be/yWWaHwDLkLM' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/yWWaHwDLkLM/mqdefault.jpg' alt='Video 1' />
@@ -256,46 +243,80 @@ My approach to development focuses on solving meaningful problems, creating sust
   <img width='30%' src='https://img.youtube.com/vi/J6Tn0FgJ768/mqdefault.jpg' alt='Video 3' />
 </a>
 
-
-Some areas I actively focus on:
-- Backend architecture with Laravel
-- Secure authentication systems
-- Performance optimization
-- SaaS platform development
-- Creator economy platforms
-- UI/UX improvements
-- API-driven applications
+My approach to development focuses on solving meaningful problems, creating sustainable products, and continuously improving both technical and business knowledge.
 
 I create products not only to improve my skills, but also to solve meaningful problems and build useful digital ecosystems for real users.
 
-> ## 🎬 [Weekmotion Creator Platform](https://weekmotion.com)
-> **Founder & Lead Developer • 2018 – Present**
-> 
-> A robust video publishing and creator monetization ecosystem built independently from concept to production.
-> - 💰 **Monetization:** Tiered memberships, recurring subscriptions, and a digital product marketplace.
-> - 🎁 **Engagement:** Integrated watch-and-earn rewards engine paired with a custom-built paid ads system.
-> - 🛠️ **Creator Tools:** Advanced dashboard analytics, video management, and distribution infrastructure.
+### 💼 Highlight Projects
 
-> ## ⚙️ [Weekmotion Tech Software Services](https://weekmotion.com/service)
-> **Software Architecture & Development**
-> 
-> Delivering high-performance, custom web applications and scalable enterprise solutions since 2018.
-> - 🏗️ **Core Engineering:** Scalable backend architectures, bespoke CMS setups, and high-throughput REST APIs.
-> - 💼 **Industry Impact:** Successfully shipped production-ready platforms across news media, healthcare, and B2B SaaS sectors.
-> - ⚡ **Focus:** Maximizing execution speed, modular code design, and robust API integrations.
-> - 📌 **Weekmotion Tech:** Trade Licensed · DUNS Registered · Serving clients since 2018
-> - 🔗 See full portfolio: **[weekmotion.com/service](https://weekmotion.com/service)**
+## 🎬 [Weekmotion — Creator Platform](https://weekmotion.com)
+**Founder & Lead Developer • 2018 – Present**
+
+A robust video publishing and creator monetization ecosystem built independently from concept to production.
+* 💰 **Monetization:** Tiered memberships, recurring subscriptions, and a digital product marketplace.
+* 🎁 **Engagement:** Integrated watch-and-earn rewards engine paired with a custom-built paid ads system.
+* 🛠️ **Creator Tools:** Advanced dashboard analytics, video management, and distribution infrastructure.
+
+---
+
+## ⚙️ [Weekmotion Tech — Software Services](https://weekmotion.com/service)
+**Software Architecture & Development**
+
+Delivering high-performance, custom web applications and scalable enterprise solutions since 2018.
+* 🏗️ **Core Engineering:** Scalable backend architectures, bespoke CMS setups, and high-throughput REST APIs.
+* 💼 **Industry Impact:** Successfully shipped production-ready platforms across news media, healthcare, and B2B SaaS sectors.
+* ⚡ **Focus:** Maximizing execution speed, modular code design, and robust API integrations.
+* 📌 **Weekmotion Tech:** Trade Licensed · DUNS Registered · Serving clients since 2018
+* 🔗 See full portfolio: **[weekmotion.com/service](https://weekmotion.com/service)**
 
 ### 📹 Latest Content & Videos
 
-<a href="https://www.youtube.com/watch?v=1lXaKEy97qE"><img src="https://ytcards.demolab.com/?id=1lXaKEy97qE&title=GitHub+Star+Swag+Unboxing+and+Giveaways&lang=en&timestamp=1696868769&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=130&border_radius=5&duration=172" alt="GitHub Star Swag Unboxing and Giveaways" title="GitHub Star Swag Unboxing and Giveaways"></a>
-<a href="https://www.youtube.com/watch?v=maoXtlb8t44"><img src="https://ytcards.demolab.com/?id=maoXtlb8t44&title=How+To+Self-Host+GitHub+Readme+Streak+Stats+on+Vercel&lang=en&timestamp=1693523015&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=130&border_radius=5&duration=257" alt="How To Self-Host GitHub Readme Streak Stats on Vercel" title="How To Self-Host GitHub Readme Streak Stats on Vercel"></a>
-<a href="https://www.youtube.com/watch?v=6u9BrDaSHJc"><img src="https://ytcards.demolab.com/?id=6u9BrDaSHJc&title=Automatically+Deploy+to+Fly.io+with+GitHub+Actions&lang=en&timestamp=1661864404&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=130&border_radius=5&duration=312" alt="Automatically Deploy to Fly.io with GitHub Actions" title="Automatically Deploy to Fly.io with GitHub Actions"></a>
-<a href="https://www.youtube.com/watch?v=J7Fm7MdZn_E"><img src="https://ytcards.demolab.com/?id=J7Fm7MdZn_E&title=Hosting+a+Python+Discord+Bot+for+Free+with+Fly.io&lang=en&timestamp=1661708747&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=130&border_radius=5&duration=403" alt="Hosting a Python Discord Bot for Free with Fly.io" title="Hosting a Python Discord Bot for Free with Fly.io"></a>
-<a href="https://www.youtube.com/watch?v=0p_eQGKFY3I"><img src="https://ytcards.demolab.com/?id=0p_eQGKFY3I&title=Making+a+Wordle+Clone+Discord+Bot+with+Python+%28Nextcord%29&lang=en&timestamp=1643900217&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=130&border_radius=5&duration=2115" alt="Making a Wordle Clone Discord Bot with Python (Nextcord)" title="Making a Wordle Clone Discord Bot with Python (Nextcord)"></a>
-<a href="https://www.youtube.com/watch?v=Mt_Bsj6K9Lw"><img src="https://ytcards.demolab.com/?id=Mt_Bsj6K9Lw&title=Run+Open+Source+Code+in+Seconds+with+GitPod&lang=en&timestamp=1642108413&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=130&border_radius=5&duration=578" alt="Run Open Source Code in Seconds with GitPod" title="Run Open Source Code in Seconds with GitPod"></a>
+<table width="100%" cellpadding="6" cellspacing="0" border="0">
+  <tr>
+    <!-- Video 1 -->
+    <td width="33.33%" align="center" valign="top">
+      <a href="https://www.youtube.com/watch?v=1lXaKEy97qE">
+        <img src="https://ytcards.demolab.com/?id=1lXaKEy97qE&title=GitHub+Star+Swag+Unboxing+and+Giveaways&lang=en&timestamp=1696868769&background_color=%23161b22&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=10&duration=172" width="100%" alt="GitHub Star Swag Unboxing and Giveaways">
+      </a>
+    </td>
+    <!-- Video 2 -->
+    <td width="33.33%" align="center" valign="top">
+      <a href="https://www.youtube.com/watch?v=maoXtlb8t44">
+        <img src="https://ytcards.demolab.com/?id=maoXtlb8t44&title=How+To+Self-Host+GitHub+Readme+Streak+Stats+on+Vercel&lang=en&timestamp=1693523015&background_color=%23161b22&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=10&duration=257" width="100%" alt="How To Self-Host GitHub Readme Streak Stats on Vercel">
+      </a>
+    </td>
+    <!-- Video 3 -->
+    <td width="33.33%" align="center" valign="top">
+      <a href="https://www.youtube.com/watch?v=6u9BrDaSHJc">
+        <img src="https://ytcards.demolab.com/?id=6u9BrDaSHJc&title=Automatically+Deploy+to+Fly.io+with+GitHub+Actions&lang=en&timestamp=1661864404&background_color=%23161b22&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=10&duration=312" width="100%" alt="Automatically Deploy to Fly.io with GitHub Actions">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <!-- Video 4 -->
+    <td width="33.33%" align="center" valign="top">
+      <a href="https://www.youtube.com/watch?v=J7Fm7MdZn_E">
+        <img src="https://ytcards.demolab.com/?id=J7Fm7MdZn_E&title=Hosting+a+Python+Discord+Bot+for+Free+with+Fly.io&lang=en&timestamp=1661708747&background_color=%23161b22&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=10&duration=403" width="100%" alt="Hosting a Python Discord Bot for Free with Fly.io">
+      </a>
+    </td>
+    <!-- Video 5 -->
+    <td width="33.33%" align="center" valign="top">
+      <a href="https://www.youtube.com/watch?v=0p_eQGKFY3I">
+        <img src="https://ytcards.demolab.com/?id=0p_eQGKFY3I&title=Making+a+Wordle+Clone+Discord+Bot+with+Python+%28Nextcord%29&lang=en&timestamp=1643900217&background_color=%23161b22&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=10&duration=2115" width="100%" alt="Making a Wordle Clone Discord Bot with Python (Nextcord)">
+      </a>
+    </td>
+    <!-- Video 6 -->
+    <td width="33.33%" align="center" valign="top">
+      <a href="https://www.youtube.com/watch?v=Mt_Bsj6K9Kw">
+        <img src="https://ytcards.demolab.com/?id=Mt_Bsj6K9Kw&title=Run+Open+Source+Code+in+Seconds+with+GitPod&lang=en&timestamp=1642108413&background_color=%23161b22&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=10&duration=578" width="100%" alt="Run Open Source Code in Seconds with GitPod">
+      </a>
+    </td>
+  </tr>
+</table>
 
-> 🔔 Subscribe to **[Jagatbarta](https://youtube.com/@jagatbarta)** for videos related to technology, web development, and digital platforms.
+<br/>
+
+---
 
  
 
