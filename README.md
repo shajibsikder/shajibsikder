@@ -165,9 +165,6 @@ What started as an idea in 2017 evolved into an independent software project in 
 
 ---
 
-> 📌 **Weekmotion Tech:** Trade Licensed · DUNS Registered · Serving clients since 2018
-> 🔗 See full portfolio: **[weekmotion.com/service](https://weekmotion.com/service)**
-
 
 <p align="left">
   A collection of projects built with focus on scalability, developer experience, and real-world impact.
@@ -286,6 +283,8 @@ I create products not only to improve my skills, but also to solve meaningful pr
 > - 🏗️ **Core Engineering:** Scalable backend architectures, bespoke CMS setups, and high-throughput REST APIs.
 > - 💼 **Industry Impact:** Successfully shipped production-ready platforms across news media, healthcare, and B2B SaaS sectors.
 > - ⚡ **Focus:** Maximizing execution speed, modular code design, and robust API integrations.
+> - 📌 **Weekmotion Tech:** Trade Licensed · DUNS Registered · Serving clients since 2018
+> - 🔗 See full portfolio: **[weekmotion.com/service](https://weekmotion.com/service)**
 
 ### 📹 Latest Content & Videos
 
