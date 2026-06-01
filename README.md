@@ -9,16 +9,17 @@ Currently working on large-scale web platform development at Weekmotion, focusin
 ---
 
 <p align="left">
+  <a href="https://orcid.org/0009-0002-0393-4725" target="_blank"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" height="28" /></a>&nbsp;
   <a href="https://linkedin.com/in/shajibsikder" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" height="28" /></a>&nbsp;
   <a href="https://leetcode.com/u/shajibsikder/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" height="28" /></a>&nbsp;
   <a href="https://dev.to/shajibsikder" target="_blank"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=flat-square&logo=devdotto&logoColor=white" height="28" /></a>&nbsp;
-  <a href="https://facebook.com/shajibno1" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" height="28" /></a>&nbsp;
-  <a href="https://www.youtube.com/@jagatbarta" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" height="28" /></a>&nbsp;
   <a href="https://www.codester.com/weekmotion/" target="_blank"><img src="https://img.shields.io/badge/Codester-FF5400?style=flat-square&logo=codersrank&logoColor=white" height="28" /></a>&nbsp;
+  <a href="https://weekmotion.com/service" target="_blank"><img src="https://img.shields.io/badge/Weekmotion-FF5400?style=flat-square&logo=firefox&logoColor=white" height="28" /></a>&nbsp;
   <a href="https://wikigenius.org/wiki/Md_Shajib_Sikder" target="_blank"><img src="https://img.shields.io/badge/Wiki-410099?style=flat-square&logo=wikipedia&logoColor=white" height="28" /></a>&nbsp;
+  <a href="https://www.youtube.com/@jagatbarta" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" height="28" /></a>&nbsp;
+  <a href="https://facebook.com/shajibno1" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" height="28" /></a>&nbsp;
   <a href="https://instagram.com/shajibno1" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" height="28" /></a>&nbsp;
   <a href="https://www.pinterest.com/shajibsikder1/" target="_blank"><img src="https://img.shields.io/badge/Pinterest-BD081C?style=flat-square&logo=pinterest&logoColor=white" height="28" /></a>&nbsp;
-  <a href="https://weekmotion.com/service" target="_blank"><img src="https://img.shields.io/badge/Weekmotion-FF5400?style=flat-square&logo=firefox&logoColor=white" height="28" /></a>&nbsp;
   <a href="mailto:im.mdshajib@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" height="28" /></a>
 </p>
 
@@ -55,15 +56,17 @@ Currently working on large-scale web platform development at Weekmotion, focusin
 
 | Project System | Engineering Focus | Link |
 | :--- | :--- | :---: |
-| 🎬 **Weekmotion** | Media platform with optimized backend workflows, async job processing, and scalable architecture | [Visit](https://weekmotion.com/) |
-| 📰 **Jagatbarta** | Multi-tenant CMS with RBAC, caching layer, and database optimization | [Visit](https://jagatbarta.top/) |
-| 🏥 **All Doctors** | Scheduling system with transactional integrity and advanced filtering | [Visit](https://alldoctorskhulna.com/) |
-| 📦 **Microloop** | Freelance marketplace system with stateless architecture | [View](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
-| 💻 **AR Creative** | Corporate platform with optimized frontend-backend integration | [Visit](https://arcreativetechnology.com/) |
-| 💻 **DBN IT** | Agency system with SSR-based performance optimization | [Visit](https://www.dbnit.com/) |
-| 📰 **DBN News** | High-traffic news platform with caching & load balancing | [Visit](https://dbnnews.com/) |
-| 📰 **Doyel24 News** | Real-time news engine with caching architecture | [Visit](https://doyel24.com/) |
-| 📰 **Prime Tribune** | International-grade media distribution system | [Visit](https://primetribune.net/) |
+| 🎬 **Weekmotion** | Media platform with async workflows and scalable architecture | [Visit](https://weekmotion.com/) |
+| 📰 **Jagatbarta** | Multi-tenant CMS with RBAC and database optimization | [Visit](https://jagatbarta.top/) |
+| 📰 **Banglapostbd** | News network with optimized content rendering pipeline | [Visit](https://www.banglapostbd.com/) |
+| 📰 **Purbobangla** | Digital news network with semantic SEO architecture | [Visit](https://purbobangla.net/) |
+| 🏥 **All Doctors** | Scheduling system with transactional booking integrity | [Visit](https://alldoctorskhulna.com/) |
+| 📦 **Microloop** | Freelance marketplace built on stateless architecture | [View](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
+| 💻 **AR Creative** | Corporate system with optimized frontend-backend integration | [Visit](https://arcreativetechnology.com/) |
+| 💻 **DBN IT** | Agency platform with SSR-based performance optimization | [Visit](https://www.dbnit.com/) |
+| 📰 **DBN News** | High-traffic news network with caching & load balancing | [Visit](https://dbnnews.com/) |
+| 📰 **Doyel24 News** | Real-time news engine featuring custom caching architecture | [Visit](https://doyel24.com/) |
+| 📰 **Prime Tribune** | International-grade media distribution infrastructure | [Visit](https://primetribune.net/) |
 
 ---
 
