@@ -3,6 +3,7 @@
 I design and build scalable backend systems, REST APIs, and web applications with a focus on performance, reliability, and maintainability.
 
 Currently handling system architecture at **Weekmotion**, optimizing core workflows to safely scale data pipelines, media delivery, and micro-transactions under high concurrency.  
+
 📊 *Reduced p95 API latency from 380ms to 220ms by restructuring MySQL composite indexes and implementing distributed Redis caching layers under peak traffic spikes.*
 
 > ⚡ *I focus on building simple, fast, and maintainable web systems that solve real-world problems.*
