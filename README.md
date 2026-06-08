@@ -52,7 +52,9 @@ Currently handling system architecture at **Weekmotion**, optimizing core workfl
 
 ---
 
-<b>🏆 Client-Facing Platforms & Architectures Shipped</b>
+<details>
+  <summary>
+<b>🏆 Client-Facing Platforms & Architectures Shipped</b> </summary>
 
 > Scalable software systems engineered and deployed for real-world production environments.
 
@@ -69,6 +71,8 @@ Currently handling system architecture at **Weekmotion**, optimizing core workfl
 | 📰 **DBN News** | Configured multi-tier caching architectures to seamlessly absorb unpredicted traffic spikes without connection pool starvation. | [Visit](https://dbnnews.com/) |
 | 📰 **Doyel24 News** | Engineered specialized relational data caching layers, reducing read-heavy database hit rates during real-time updates. | [Visit](https://doyel24.com/) |
 | 📰 **Prime Tribune** | Orchestrated robust backend systems designed for low infrastructure overhead and fast server-side hydration cycles under load. | [Visit](https://primetribune.net/) |
+
+</details>
 
 ---
 
