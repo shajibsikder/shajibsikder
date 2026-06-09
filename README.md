@@ -1,3 +1,9 @@
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+</p>
+
 ### Backend Engineer | Full-Stack Systems Developer
 
 I design and build scalable backend systems, REST APIs, and web applications with a focus on performance, reliability, and maintainability.
