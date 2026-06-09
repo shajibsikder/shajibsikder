@@ -1,0 +1,99 @@
+name: Weekmotion Journey Map
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate Journey SVG
+        run: |
+          mkdir -p dist
+          cat <<EOF > dist/weekmotion-journey.svg
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+.bg { fill:#0d1117; }
+
+.title {
+  fill:#58a6ff;
+  font-size:28px;
+  font-family:Arial;
+  font-weight:bold;
+}
+
+.node {
+  fill:#161b22;
+  stroke:#58a6ff;
+  stroke-width:2;
+}
+
+.line {
+  stroke:#58a6ff;
+  stroke-width:3;
+  stroke-dasharray:8 6;
+}
+
+.glow {
+  filter: drop-shadow(0 0 10px #58a6ff);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity:0.6; }
+  50% { opacity:1; }
+  100% { opacity:0.6; }
+}
+
+.text {
+  fill:white;
+  font-family:Arial;
+  font-size:16px;
+}
+</style>
+
+<rect width="1200" height="400" class="bg"/>
+
+<text x="600" y="50" text-anchor="middle" class="title">
+🌌 WEEKMOTION CONTRIBUTION JOURNEY
+</text>
+
+<!-- Path -->
+<line x1="100" y1="200" x2="1100" y2="200" class="line"/>
+
+<!-- Nodes -->
+<circle cx="150" cy="200" r="25" class="node glow"/>
+<text x="150" y="250" text-anchor="middle" class="text">🌙 Dream</text>
+
+<circle cx="350" cy="200" r="25" class="node glow"/>
+<text x="350" y="250" text-anchor="middle" class="text">📚 Learn</text>
+
+<circle cx="550" cy="200" r="25" class="node glow"/>
+<text x="550" y="250" text-anchor="middle" class="text">💻 Code</text>
+
+<circle cx="750" cy="200" r="25" class="node glow"/>
+<text x="750" y="250" text-anchor="middle" class="text">🚀 Build</text>
+
+<circle cx="950" cy="200" r="25" class="node glow"/>
+<text x="950" y="250" text-anchor="middle" class="text">👑 CEO</text>
+
+</svg>
+EOF
+
+      - name: Deploy SVG
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
