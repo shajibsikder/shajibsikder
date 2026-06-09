@@ -1,0 +1,66 @@
+<svg width="1200" height="450" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+.bg { fill:#02040a; }
+
+.center {
+  fill:#00ffcc;
+  filter: drop-shadow(0 0 20px #00ffcc);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { r: 40; opacity: 0.5; }
+  50% { r: 55; opacity: 1; }
+  100% { r: 40; opacity: 0.5; }
+}
+
+.ring {
+  fill:none;
+  stroke:#00ffcc;
+  stroke-width:2;
+  opacity:0.3;
+  animation: expand 3s infinite;
+}
+
+@keyframes expand {
+  0% { transform: scale(0.8); opacity:0.5; }
+  100% { transform: scale(1.2); opacity:0; }
+}
+
+.text {
+  fill:#ffffff;
+  font-family:Arial;
+  font-size:18px;
+}
+
+.glow {
+  filter: drop-shadow(0 0 8px #00ffcc);
+}
+</style>
+
+<rect width="1200" height="450" class="bg"/>
+
+<!-- Radar Rings -->
+<circle cx="600" cy="225" r="80" class="ring"/>
+<circle cx="600" cy="225" r="140" class="ring"/>
+<circle cx="600" cy="225" r="200" class="ring"/>
+
+<!-- Core Node -->
+<circle cx="600" cy="225" r="45" class="center"/>
+
+<text x="600" y="230" text-anchor="middle" class="text glow">
+CEO NODE
+</text>
+
+<!-- Left Feed -->
+<text x="80" y="120" class="text">🌙 Dream Signal: ACTIVE</text>
+<text x="80" y="160" class="text">💻 Code Flow: STABLE</text>
+<text x="80" y="200" class="text">🚀 Build Engine: RUNNING</text>
+
+<!-- Right Feed -->
+<text x="820" y="120" class="text">📡 Network: GLOBAL</text>
+<text x="820" y="160" class="text">⚡ Status: LEGEND MODE</text>
+<text x="820" y="200" class="text">👑 Rank: FOUNDER</text>
+
+</svg>
