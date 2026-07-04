@@ -71,7 +71,7 @@ Currently handling system architecture at **Weekmotion**, optimizing core workfl
 | 📰 **DBN News** | Configured multi-tier caching architectures to seamlessly absorb unpredicted traffic spikes without connection pool starvation. | [Visit](https://dbnnews.com/) |
 | 📰 **Doyel24 News** | Engineered specialized relational data caching layers, reducing read-heavy database hit rates during real-time updates. | [Visit](https://doyel24.com/) |
 | 📰 **Prime Tribune** | Orchestrated robust backend systems designed for low infrastructure overhead and fast server-side hydration cycles under load. | [Visit](https://primetribune.net/) |
-| 🏫 **Chowbaria Malshira High School** | Developed a modern educational website with responsive architecture, structured content management, and optimized page delivery for reliable long-term administration. | [Visit](http://chowbariamalshirahighschool.edu.bd/) |
+| 🏫 **High School** | Developed a modern educational website with responsive architecture, structured content management, and optimized page delivery for reliable long-term administration. | [Visit](http://chowbariamalshirahighschool.edu.bd/) |
 | 🤝 **Service Partner** | Engineered a secure service marketplace with scalable order workflows, role-based access control, and optimized backend request processing. | [Visit](https://servicepartner.online/) |
 | 🛒 **Securitybd** | Architected a custom eCommerce platform featuring modular product management, secure payment workflows, and efficient inventory synchronization. | [Visit](https://securitybd.com/) |
 | 🖼️ **Photo Vubon** | Built a personalized photo printing platform with dynamic order generation, optimized media processing, and secure checkout infrastructure. | [Visit](https://photovubon.com/) |
