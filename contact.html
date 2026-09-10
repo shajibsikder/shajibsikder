@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Say Hello — Md Shajib Sikder</title>
+
+  <meta name="title" content="Say Hello — Md Shajib Sikder">
+  <meta name="description" content="Get in touch with Senior Backend Systems Engineer Md Shajib Sikder.">
+  <meta name="author" content="Md Shajib Sikder">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://shajibsikder.github.io/contact.html">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+      background-color: #050716;
+      color: #cbd5e1;
+      -webkit-font-smoothing: antialiased;
+      letter-spacing: -0.01em;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nebula-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100vh;
+      background: radial-gradient(circle at 50% 45%, rgba(236, 72, 153, 0.14) 0%, rgba(59, 130, 246, 0.16) 40%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .rainbow-email-text {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: linear-gradient(90deg, #38bdf8 0%, #a78bfa 35%, #f472b6 70%, #fbbf24 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 0 25px rgba(56, 189, 248, 0.4)) drop-shadow(0 0 45px rgba(244, 114, 182, 0.25));
+      letter-spacing: -0.035em;
+    }
+
+    .brand-pill {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(16px);
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      color: #cbd5e1;
+    }
+    .brand-pill:hover {
+      background: rgba(30, 41, 59, 0.85);
+      border-color: rgba(255, 255, 255, 0.3);
+      color: #ffffff;
+      transform: translateY(-2px);
+    }
+
+    #menu-toggle:checked ~ #mobile-menu-overlay { display: flex; }
+    #menu-toggle:checked ~ header label[for="menu-toggle"] .icon-open { display: none; }
+    #menu-toggle:checked ~ header label[for="menu-toggle"] .icon-close { display: block; }
+  </style>
+</head>
+<body class="flex flex-col min-h-screen relative">
+
+  <input type="checkbox" id="menu-toggle" class="hidden peer">
+  <div class="nebula-bg"></div>
+
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[#050716]/90 border-b border-slate-800/50">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between relative z-10">
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="text-xl font-bold text-white tracking-tight">Shajib Sikder</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-5 text-sm font-medium text-slate-300">
+        <a href="projects.html" class="hover:text-white transition">Projects</a>
+        <a href="blog.html" class="hover:text-white transition">Blog</a>
+        <a href="about.html" class="hover:text-white transition">About</a>
+        <a href="contact.html" class="text-white font-semibold">Contact</a>
+        <span class="text-slate-700">|</span>
+        <a href="https://github.com/shajibsikder" target="_blank" aria-label="GitHub" class="hover:text-white transition">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+      </nav>
+
+      <label for="menu-toggle" class="md:hidden p-2 text-slate-300 hover:text-white cursor-pointer select-none">
+        <svg class="icon-open w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/></svg>
+        <svg class="icon-close hidden w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </label>
+    </div>
+  </header>
+
+  <div id="mobile-menu-overlay" class="fixed inset-0 top-16 bg-[#050716] z-40 hidden flex-col justify-start pt-12 px-8 space-y-6 md:hidden">
+    <a href="projects.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">Projects</a>
+    <a href="blog.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">Blog</a>
+    <a href="about.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">About</a>
+    <a href="contact.html" class="text-3xl font-bold text-white transition py-2">Contact</a>
+    <a href="https://github.com/shajibsikder" target="_blank" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2 flex items-center gap-3">
+      <span>GitHub Code</span>
+      <span class="text-xl">↗</span>
+    </a>
+  </div>
+
+  <main class="flex-grow flex items-center justify-center py-20 relative z-10">
+    <div class="text-center px-4 max-w-4xl mx-auto">
+      <p class="text-xs font-semibold tracking-wider text-slate-400 uppercase mb-4">SAY HELLO</p>
+
+      <a href="mailto:im.mdshajib@gmail.com" class="rainbow-email-text text-3xl sm:text-5xl md:text-6xl font-extrabold block hover:scale-[1.01] transition-transform duration-300 my-4">
+        im.mdshajib@gmail.com
+      </a>
+
+      <p class="text-sm text-slate-300 font-medium mt-6 mb-12 flex flex-wrap items-center justify-center gap-2">
+        <span>Keep it succinct</span>
+        <span class="text-slate-600">•</span>
+        <span>Remote & Contract Consulting</span>
+        <span class="text-slate-600">•</span>
+        <span>System Architecture Reviews</span>
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-3 max-w-2xl mx-auto">
+        <a href="https://linkedin.com/in/shajibsikder" target="_blank" class="brand-pill px-4 py-2.5 rounded-full text-xs font-semibold flex items-center gap-2">
+          <svg class="w-4 h-4 text-[#0a66c2]" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/shajibsikder" target="_blank" class="brand-pill px-4 py-2.5 rounded-full text-xs font-semibold flex items-center gap-2">
+          <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://facebook.com/shajibno1" target="_blank" class="brand-pill px-4 py-2.5 rounded-full text-xs font-semibold flex items-center gap-2">
+          <svg class="w-4 h-4 text-[#1877f2]" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Facebook
+        </a>
+        <a href="https://leetcode.com/u/shajibsikder/" target="_blank" class="brand-pill px-4 py-2.5 rounded-full text-xs font-semibold flex items-center gap-2">
+          <svg class="w-4 h-4 text-[#ffa116]" fill="currentColor" viewBox="0 0 24 24"><path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863 0-.713.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636c-1.011-1.01-2.377-1.503-3.887-1.503s-2.876.493-3.887-1.503l-4.319 4.38c-1.01 1.01-1.516 2.39-1.516 3.9 0 1.51.506 2.89 1.516 3.9l4.332 4.363c1.011 1.01 2.377 1.503 3.887 1.503s2.876-.493 3.887-1.503l2.609-2.636c.514-.514.496-1.365-.039-1.901-.535-.535-1.386-.553-1.9.038z"/></svg>
+          LeetCode
+        </a>
+        <a href="https://dev.to/shajibsikder" target="_blank" class="brand-pill px-4 py-2.5 rounded-full text-xs font-semibold flex items-center gap-2">
+          <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M7.42 10.05c-.18-.16-.46-.23-.84-.23H5.34v4.37h1.24c.39 0 .68-.07.85-.23.18-.16.27-.43.27-.82v-2.27c0-.39-.09-.66-.28-.82zm-2.08.7h.7c.18 0 .3.03.36.1.06.07.1.18.1.33v2.17c0 .15-.04.26-.1.33-.06.07-.18.1-.36.1h-.7v-3.03zm7.04-1h-2.82v4.86h2.82v-.93h-1.84v-1.04h1.69v-.93h-1.69v-1.03h1.84v-.93zm3.76 0l-1.05 3.52-1.06-3.52h-1.12l1.62 4.86h1.12l1.62-4.86h-1.13z"/></svg>
+          Dev.to
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-8 border-t border-slate-800/50 text-xs text-slate-500 text-center relative z-10">
+    <div class="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>© 2026 Md Shajib Sikder. Hosted on GitHub Pages.</div>
+      <div class="flex items-center gap-6">
+        <a href="projects.html" class="hover:text-slate-300">Projects</a>
+        <a href="about.html" class="hover:text-slate-300">About</a>
+        <a href="contact.html" class="hover:text-slate-300">Contact</a>
+        <a href="privacy.html" class="hover:text-slate-300">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

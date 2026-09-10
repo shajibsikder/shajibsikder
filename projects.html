@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects & Systems — Md Shajib Sikder</title>
+
+  <meta name="title" content="Projects & Systems — Md Shajib Sikder">
+  <meta name="description" content="Production software systems, high-concurrency microservices, and media backends engineered by Md Shajib Sikder.">
+  <meta name="author" content="Md Shajib Sikder">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://shajibsikder.github.io/projects.html">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+      background-color: #050716;
+      color: #cbd5e1;
+      -webkit-font-smoothing: antialiased;
+      letter-spacing: -0.01em;
+    }
+    h1, h2, h3, h4 {
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+      letter-spacing: -0.035em;
+    }
+    .sindre-card {
+      background: rgba(15, 23, 42, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      transition: all 0.2s ease;
+    }
+    .sindre-card:hover {
+      background: rgba(15, 23, 42, 0.8);
+      border-color: rgba(59, 130, 246, 0.35);
+      transform: translateY(-2px);
+    }
+    /* Mobile Hamburger Menu State */
+    #menu-toggle:checked ~ #mobile-menu-overlay { display: flex; }
+    #menu-toggle:checked ~ header label[for="menu-toggle"] .icon-open { display: none; }
+    #menu-toggle:checked ~ header label[for="menu-toggle"] .icon-close { display: block; }
+  </style>
+</head>
+<body class="flex flex-col min-h-screen relative">
+
+  <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[#050716]/90 border-b border-slate-800/50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between relative z-10">
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="text-xl font-black text-white tracking-tight">Shajib Sikder</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-5 text-sm font-medium text-slate-300">
+        <a href="projects.html" class="text-white font-semibold">Projects</a>
+        <a href="blog.html" class="hover:text-white transition">Blog</a>
+        <a href="about.html" class="hover:text-white transition">About</a>
+        <a href="contact.html" class="hover:text-white transition">Contact</a>
+        <span class="text-slate-700">|</span>
+        <a href="https://github.com/shajibsikder" target="_blank" aria-label="GitHub" class="hover:text-white transition">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+      </nav>
+
+      <!-- Hamburger Button (Mobile) -->
+      <label for="menu-toggle" class="md:hidden p-2 text-slate-300 hover:text-white cursor-pointer select-none">
+        <svg class="icon-open w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/></svg>
+        <svg class="icon-close hidden w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </label>
+
+    </div>
+  </header>
+
+  <!-- Sindre Sorhus Mobile Menu Overlay -->
+  <div id="mobile-menu-overlay" class="fixed inset-0 top-16 bg-[#050716] z-40 hidden flex-col justify-start pt-12 px-8 space-y-6 md:hidden">
+    <a href="projects.html" class="text-3xl font-bold text-white transition py-2">Projects</a>
+    <a href="blog.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">Blog</a>
+    <a href="about.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">About</a>
+    <a href="contact.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">Contact</a>
+    <a href="https://github.com/shajibsikder" target="_blank" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2 flex items-center gap-3">
+      <span>GitHub Code</span>
+      <span class="text-xl">↗</span>
+    </a>
+  </div>
+
+  <main class="flex-grow max-w-4xl mx-auto px-4 py-16">
+    <div class="mb-10">
+      <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-4 tracking-tighter">Production Projects & Systems</h1>
+      <p class="text-slate-400 text-sm sm:text-base">
+        A collection of production software systems, micro-services, and architectures engineered for real-world production.
+      </p>
+
+      <div class="mt-8 flex flex-col sm:flex-row items-center gap-4">
+        <input type="text" id="searchInput" placeholder="Search systems, tech..." class="w-full sm:w-72 px-4 py-2 rounded-full bg-slate-900 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500">
+        
+        <div class="flex flex-wrap gap-2" id="filterBtns">
+          <button data-filter="all" class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-blue-600 text-white">All</button>
+          <button data-filter="media" class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-slate-900 border border-slate-800 text-slate-400 hover:text-white">Media & Publishing</button>
+          <button data-filter="saas" class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-slate-900 border border-slate-800 text-slate-400 hover:text-white">SaaS & Platforms</button>
+          <button data-filter="tool" class="filter-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-slate-900 border border-slate-800 text-slate-400 hover:text-white">Tools & Portal</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-y-4" id="projectsContainer">
+
+      <!-- 1. Weekmotion -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="media" data-title="weekmotion media platform backend laravel redis chunk uploads">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">🎬</span>
+            <h2 class="text-lg font-bold text-white">Weekmotion Platform</h2>
+            <span class="text-xs font-mono text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded">Media Ecosystem</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Built a modular media backend with sequential chunk uploads, reducing web server process blocking spikes from 45% down to less than 15% via Redis async background queues.
+          </p>
+        </div>
+        <a href="https://weekmotion.com/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">weekmotion.com ↗</a>
+      </article>
+
+      <!-- 2. Jagatbarta -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="media" data-title="jagatbarta news publishing cms redis mysql cache">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">📰</span>
+            <h2 class="text-lg font-bold text-white">Jagatbarta Publishing</h2>
+            <span class="text-xs font-mono text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded">Multi-Tenant CMS</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Engineered a multi-tenant CMS increasing the Redis cache hit rate from 65% to 92% on core article endpoints, successfully eliminating disk I/O bottlenecks.
+          </p>
+        </div>
+        <a href="https://jagatbarta.top/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">jagatbarta.top ↗</a>
+      </article>
+
+      <!-- 3. All Doctors -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="saas" data-title="all doctors booking medical healthcare select for update lock">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">🏥</span>
+            <h2 class="text-lg font-bold text-white">All Doctors Medical Engine</h2>
+            <span class="text-xs font-mono text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">Healthcare SaaS</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Implemented precise transaction isolation levels and row-level locking (`SELECT FOR UPDATE`), guaranteeing zero double-bookings across 500+ concurrent sessions.
+          </p>
+        </div>
+        <a href="https://alldoctorskhulna.com/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">alldoctorskhulna.com ↗</a>
+      </article>
+
+      <!-- 4. Microloop -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="saas" data-title="microloop freelance marketplace token license codester">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">📦</span>
+            <h2 class="text-lg font-bold text-white">Microloop Marketplace</h2>
+            <span class="text-xs font-mono text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded">Freelance Platform</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Developed a freelance marketplace using a stateless token infrastructure, handling secure digital license validation and scalable checkouts.
+          </p>
+        </div>
+        <a href="https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">Codester View ↗</a>
+      </article>
+
+      <!-- 5. ARCreative -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="saas" data-title="arcreative technology background jobs asset optimization nginx">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">💻</span>
+            <h2 class="text-lg font-bold text-white">ARCreative Technology</h2>
+            <span class="text-xs font-mono text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded">Enterprise Tech</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Refactored internal background jobs and heavy asset optimization loops, drastically reducing server execution response delays.
+          </p>
+        </div>
+        <a href="https://arcreativetechnology.com/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">arcreativetechnology.com ↗</a>
+      </article>
+
+      <!-- 6. DBN IT -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="saas" data-title="dbn it request response routing query optimization eager loading">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">💻</span>
+            <h2 class="text-lg font-bold text-white">DBN IT Systems</h2>
+            <span class="text-xs font-mono text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded">IT Solutions</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Tuned request-response routing loops and eliminated eager-loading query data bottlenecks to maintain highly predictable throughput.
+          </p>
+        </div>
+        <a href="https://www.dbnit.com/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">dbnit.com ↗</a>
+      </article>
+
+      <!-- 7. DBN News -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="media" data-title="dbn news multi tier caching connection pool traffic spikes">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">📰</span>
+            <h2 class="text-lg font-bold text-white">DBN News Platform</h2>
+            <span class="text-xs font-mono text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded">News Media</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Configured multi-tier caching architectures to seamlessly absorb unpredicted traffic spikes without connection pool starvation.
+          </p>
+        </div>
+        <a href="https://dbnnews.com/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">dbnnews.com ↗</a>
+      </article>
+
+      <!-- 8. Doyel24 -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="media" data-title="doyel24 news caching relational database hit rates">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">📰</span>
+            <h2 class="text-lg font-bold text-white">Doyel24 News Portal</h2>
+            <span class="text-xs font-mono text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded">News Portal</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Engineered specialized relational data caching layers, reducing read-heavy database hit rates during real-time updates.
+          </p>
+        </div>
+        <a href="https://doyel24.com/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">doyel24.com ↗</a>
+      </article>
+
+      <!-- 9. Tribune -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="media" data-title="tribune prime tribune fast server side hydration backend">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">📰</span>
+            <h2 class="text-lg font-bold text-white">Prime Tribune</h2>
+            <span class="text-xs font-mono text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded">News Network</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Orchestrated robust backend systems designed for low infrastructure overhead and fast server-side hydration cycles under load.
+          </p>
+        </div>
+        <a href="https://primetribune.net/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">primetribune.net ↗</a>
+      </article>
+
+      <!-- 10. School -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="tool" data-title="school education website content management high school">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">🏫</span>
+            <h2 class="text-lg font-bold text-white">Chowbari High School Portal</h2>
+            <span class="text-xs font-mono text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">Education Portal</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Developed a modern educational website with responsive architecture, structured content management, and optimized page delivery for reliable administration.
+          </p>
+        </div>
+        <a href="http://chowbariamalshirahighschool.edu.bd/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">School Portal ↗</a>
+      </article>
+
+      <!-- 11. Servic -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="saas" data-title="servic service partner marketplace rbac workflows">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">🤝</span>
+            <h2 class="text-lg font-bold text-white">ServicePartner Marketplace</h2>
+            <span class="text-xs font-mono text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded">Service Marketplace</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Engineered a secure service marketplace with scalable order workflows, role-based access control (RBAC), and optimized backend request processing.
+          </p>
+        </div>
+        <a href="https://servicepartner.online/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">servicepartner.online ↗</a>
+      </article>
+
+      <!-- 12. Tabvora Extension -->
+      <article class="sindre-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-category="tool" data-title="tabvora browser extension chrome javascript github tab session manager">
+        <div>
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-lg">🧩</span>
+            <h2 class="text-lg font-bold text-white">Tabvora Extension</h2>
+            <span class="text-xs font-mono text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded">Browser Extension</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400">
+            Smart browser extension for managing tabs, sessions, website usage time, and browsing data with restore, import, and export features. (74★ on GitHub).
+          </p>
+        </div>
+        <a href="https://github.com/shajibsikder/tabvora" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">GitHub Repo ↗</a>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="py-8 border-t border-slate-800/50 text-xs text-slate-500 text-center">
+    <div class="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>© 2026 Md Shajib Sikder. All rights reserved.</div>
+      <div class="flex items-center gap-6">
+        <a href="projects.html" class="hover:text-slate-300">Projects</a>
+        <a href="about.html" class="hover:text-slate-300">About</a>
+        <a href="contact.html" class="hover:text-slate-300">Contact</a>
+        <a href="privacy.html" class="hover:text-slate-300">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    const cards = document.querySelectorAll('.sindre-card');
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    let currentFilter = 'all';
+
+    function filterProjects() {
+      const query = searchInput.value.toLowerCase();
+      cards.forEach(card => {
+        const title = card.getAttribute('data-title').toLowerCase();
+        const category = card.getAttribute('data-category');
+        const matchesCategory = (currentFilter === 'all' || category === currentFilter);
+        const matchesQuery = title.includes(query);
+        card.style.display = (matchesCategory && matchesQuery) ? 'flex' : 'none';
+      });
+    }
+
+    searchInput.addEventListener('input', filterProjects);
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.className = 'filter-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-slate-900 border border-slate-800 text-slate-400 hover:text-white');
+        btn.className = 'filter-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-blue-600 text-white';
+        currentFilter = btn.getAttribute('data-filter');
+        filterProjects();
+      });
+    });
+  </script>
+</body>
+</html>

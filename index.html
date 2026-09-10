@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Md Shajib Sikder — Backend Systems Engineer</title>
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Md Shajib Sikder — Backend Systems Engineer">
+  <meta name="description" content="Senior Backend Systems Engineer specializing in high-concurrency APIs, MySQL query optimization, and distributed Redis caching. Lead Architect at Weekmotion.">
+  <meta name="author" content="Md Shajib Sikder">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://shajibsikder.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shajibsikder.github.io/">
+  <meta property="og:title" content="Md Shajib Sikder — Backend Systems Engineer">
+  <meta property="og:description" content="Senior Backend Systems Engineer specializing in high-concurrency APIs, MySQL query optimization, and distributed Redis caching.">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/127028992?v=4">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Inter Font Stack -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+    body {
+      font-family: 'Inter', ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+      background-color: #050716;
+      color: #cbd5e1;
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    /* Cosmic Nebula Backdrop */
+    .nebula-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100vh;
+      background: radial-gradient(circle at 50% 30%, rgba(59, 130, 246, 0.15) 0%, rgba(139, 92, 246, 0.1) 35%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Sindre Hero Title Glow */
+    .hero-title-glow {
+      background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #f472b6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 0 16px rgba(96, 165, 250, 0.45)) drop-shadow(0 0 36px rgba(167, 139, 250, 0.25));
+      letter-spacing: -0.04em;
+    }
+
+    .hero-tagline {
+      font-weight: 350;
+      letter-spacing: 0.05em;
+      color: #cbd5e1;
+    }
+
+    /* Static Ring Avatar */
+    .profile-ring {
+      position: relative;
+      display: inline-flex;
+      border-radius: 50%;
+      padding: 3px;
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899);
+      filter: drop-shadow(0 0 14px rgba(59, 130, 246, 0.5)) drop-shadow(0 0 35px rgba(139, 92, 246, 0.3));
+    }
+    .profile-photo {
+      border-radius: 50%;
+      display: block;
+      background: #050716;
+    }
+
+    /* Glass Buttons */
+    .glass-btn-blue {
+      background: rgba(37, 99, 235, 0.35);
+      border: 1px solid rgba(99, 160, 255, 0.45);
+      box-shadow: inset 0 1.5px 0 rgba(255, 255, 255, 0.3), 0 4px 24px rgba(59, 130, 246, 0.35);
+      backdrop-filter: blur(20px);
+      transition: all 0.25s ease;
+      color: #ffffff;
+    }
+    .glass-btn-blue:hover {
+      background: rgba(37, 99, 235, 0.55);
+      border-color: rgba(147, 197, 253, 0.7);
+      transform: translateY(-2px);
+    }
+
+    .glass-btn-dark {
+      background: rgba(10, 15, 30, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      box-shadow: inset 0 1.5px 0 rgba(255, 255, 255, 0.2), 0 4px 20px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(20px);
+      transition: all 0.25s ease;
+      color: #ffffff;
+    }
+    .glass-btn-dark:hover {
+      background: rgba(15, 23, 42, 0.85);
+      border-color: rgba(255, 255, 255, 0.3);
+      transform: translateY(-2px);
+    }
+
+    /* Metric Card */
+    .metric-card {
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(16px);
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .metric-card:hover {
+      background: rgba(30, 41, 59, 0.7);
+      border-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-2px);
+    }
+
+    .sindre-row {
+      background: rgba(15, 23, 42, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      transition: all 0.2s ease;
+    }
+    .sindre-row:hover {
+      background: rgba(15, 23, 42, 0.75);
+      border-color: rgba(59, 130, 246, 0.35);
+      transform: translateY(-2px);
+    }
+
+    /* Pure CSS Mobile Hamburger Menu Toggle */
+    #menu-toggle:checked ~ #mobile-menu-overlay {
+      display: flex;
+    }
+    #menu-toggle:checked ~ header label[for="menu-toggle"] .icon-open {
+      display: none;
+    }
+    #menu-toggle:checked ~ header label[for="menu-toggle"] .icon-close {
+      display: block;
+    }
+  </style>
+
+  <!-- Schema.org Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Md Shajib Sikder",
+    "url": "https://shajibsikder.github.io",
+    "image": "https://avatars.githubusercontent.com/u/127028992?v=4",
+    "jobTitle": "Backend Systems Engineer",
+    "sameAs": [
+      "https://github.com/shajibsikder",
+      "https://linkedin.com/in/shajibsikder",
+      "https://leetcode.com/u/shajibsikder/",
+      "https://dev.to/shajibsikder",
+      "https://orcid.org/0009-0002-0393-4725"
+    ]
+  }
+  </script>
+</head>
+<body class="flex flex-col min-h-screen relative">
+
+  <!-- Pure CSS Checkbox State for Hamburger Menu -->
+  <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+  <!-- Background Glow -->
+  <div class="nebula-bg"></div>
+
+  <!-- Header Navigation -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[#050716]/90 border-b border-slate-800/50">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between relative z-10">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="text-xl font-bold text-white tracking-tight">Shajib Sikder</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-300">
+        <a href="projects.html" class="hover:text-white transition">Projects</a>
+        <a href="blog.html" class="hover:text-white transition">Blog</a>
+        <a href="about.html" class="hover:text-white transition">About</a>
+        <a href="contact.html" class="hover:text-white transition">Contact</a>
+        <span class="text-slate-700">|</span>
+        <a href="https://github.com/shajibsikder" target="_blank" aria-label="GitHub" class="hover:text-white transition">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+      </nav>
+
+      <!-- Sindre Sorhus Exact Hamburger Button (Mobile Only) -->
+      <label for="menu-toggle" class="md:hidden p-2 text-slate-300 hover:text-white cursor-pointer select-none">
+        <!-- Hamburger Icon (=) -->
+        <svg class="icon-open w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/>
+        </svg>
+        <!-- Close Icon (X) -->
+        <svg class="icon-close hidden w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </label>
+
+    </div>
+  </header>
+
+  <!-- Sindre Sorhus Exact Mobile Menu Overlay -->
+  <div id="mobile-menu-overlay" class="fixed inset-0 top-16 bg-[#050716] z-40 hidden flex-col justify-start pt-12 px-8 space-y-6 md:hidden">
+    <a href="projects.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">Projects</a>
+    <a href="blog.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">Blog</a>
+    <a href="about.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">About</a>
+    <a href="contact.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">Contact</a>
+    <a href="https://github.com/shajibsikder" target="_blank" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2 flex items-center gap-3">
+      <span>GitHub Code</span>
+      <span class="text-xl">↗</span>
+    </a>
+  </div>
+
+  <!-- Hero Section -->
+  <main class="flex-grow relative z-10">
+    <section class="min-h-[70vh] flex items-center justify-center py-16 max-w-4xl mx-auto px-4 text-center">
+      <div>
+        
+        <!-- Avatar Ring -->
+        <div class="mb-8 inline-block">
+          <div class="profile-ring">
+            <img src="https://avatars.githubusercontent.com/u/127028992?v=4" alt="Md Shajib Sikder" class="w-32 h-32 md:w-36 md:h-36 profile-photo">
+          </div>
+        </div>
+
+        <!-- Title & Tagline -->
+        <h1 class="hero-title-glow text-5xl sm:text-6xl md:text-7xl font-extrabold mb-4">
+          Md Shajib Sikder
+        </h1>
+
+        <p class="hero-tagline text-xl sm:text-2xl mb-10">
+          Backend Systems Engineer & Architecture Specialist
+        </p>
+
+        <!-- Buttons -->
+        <div class="flex flex-wrap items-center justify-center gap-4">
+          <a href="contact.html" class="glass-btn-blue px-8 py-3.5 rounded-full text-sm font-semibold flex items-center gap-2">
+            <span>💬 Contact Me</span>
+          </a>
+          <a href="https://github.com/shajibsikder" target="_blank" class="glass-btn-dark px-8 py-3.5 rounded-full text-sm font-semibold flex items-center gap-2">
+            <span>🐙 Code</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Metrics Section -->
+    <section class="py-12 border-y border-slate-800/50 bg-[#050716]/80">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6">
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+          
+          <div class="metric-card p-5 rounded-2xl text-center flex flex-col justify-center items-center">
+            <div class="text-xl sm:text-2xl font-extrabold text-white tracking-tight mb-1">
+              <span class="text-slate-400 text-sm font-normal">380ms</span>
+              <span class="text-blue-400">➔ 220ms</span>
+            </div>
+            <div class="text-xs text-slate-400 font-medium">p95 API Latency</div>
+          </div>
+
+          <div class="metric-card p-5 rounded-2xl text-center flex flex-col justify-center items-center">
+            <div class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight mb-1">
+              92%
+            </div>
+            <div class="text-xs text-slate-400 font-medium">Redis Cache Hit Rate</div>
+          </div>
+
+          <div class="metric-card p-5 rounded-2xl text-center flex flex-col justify-center items-center">
+            <div class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight mb-1">
+              500+
+            </div>
+            <div class="text-xs text-slate-400 font-medium">Concurrent Sessions</div>
+          </div>
+
+          <div class="metric-card p-5 rounded-2xl text-center flex flex-col justify-center items-center">
+            <div class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight mb-1">
+              2,300+
+            </div>
+            <div class="text-xs text-slate-400 font-medium">GitHub Contributions</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Systems Overview -->
+    <section class="py-16 max-w-4xl mx-auto px-4">
+      <div class="flex items-center justify-between mb-8">
+        <h2 class="text-2xl font-bold text-white tracking-tight">Core Production Systems</h2>
+        <a href="projects.html" class="text-xs font-semibold text-blue-400 hover:underline">View All Projects ➔</a>
+      </div>
+
+      <div class="space-y-4">
+        
+        <!-- Weekmotion -->
+        <div class="sindre-row p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="text-lg">🎬</span>
+              <h3 class="text-lg font-bold text-white">Weekmotion Platform</h3>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-400">
+              Built a modular media backend with sequential chunk uploads, reducing web server process blocking spikes from 45% down to &lt;15% via Redis async queues.
+            </p>
+          </div>
+          <a href="https://weekmotion.com/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">
+            weekmotion.com ↗
+          </a>
+        </div>
+
+        <!-- Jagatbarta -->
+        <div class="sindre-row p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="text-lg">📰</span>
+              <h3 class="text-lg font-bold text-white">Jagatbarta Publishing</h3>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-400">
+              Engineered a multi-tenant CMS increasing Redis cache hit rate from 65% to 92% on core article endpoints, eliminating disk I/O bottlenecks.
+            </p>
+          </div>
+          <a href="https://jagatbarta.top/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">
+            jagatbarta.top ↗
+          </a>
+        </div>
+
+        <!-- All Doctors -->
+        <div class="sindre-row p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="text-lg">🏥</span>
+              <h3 class="text-lg font-bold text-white">All Doctors Medical Engine</h3>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-400">
+              Implemented row-level locking (`SELECT FOR UPDATE`), guaranteeing zero double-bookings across 500+ concurrent sessions.
+            </p>
+          </div>
+          <a href="https://alldoctorskhulna.com/" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">
+            alldoctorskhulna.com ↗
+          </a>
+        </div>
+
+        <!-- Microloop -->
+        <div class="sindre-row p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="text-lg">📦</span>
+              <h3 class="text-lg font-bold text-white">Microloop Marketplace</h3>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-400">
+              Developed a freelance marketplace using a stateless token infrastructure, handling digital license validation and checkouts.
+            </p>
+          </div>
+          <a href="https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform" target="_blank" rel="noopener" class="text-xs font-semibold text-blue-400 hover:underline shrink-0">
+            Codester View ↗
+          </a>
+        </div>
+
+      </div>
+
+      <div class="mt-8 text-center">
+        <a href="projects.html" class="glass-btn-blue px-6 py-3 rounded-full text-xs font-semibold inline-flex items-center gap-2">
+          <span>See All Projects</span>
+          <span>➔</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-8 border-t border-slate-800/50 text-xs text-slate-500 text-center relative z-10">
+    <div class="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>© 2026 Md Shajib Sikder. Hosted on GitHub Pages.</div>
+      <div class="flex items-center gap-6">
+        <a href="projects.html" class="hover:text-slate-300">Projects</a>
+        <a href="blog.html" class="hover:text-slate-300">Blog</a>
+        <a href="about.html" class="hover:text-slate-300">About</a>
+        <a href="contact.html" class="hover:text-slate-300">Contact</a>
+        <a href="privacy.html" class="hover:text-slate-300">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

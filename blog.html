@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Engineering Insights & Tech Blog — Md Shajib Sikder</title>
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Engineering Insights & Tech Blog — Md Shajib Sikder">
+  <meta name="description" content="Technical deep-dives on high-throughput MySQL query optimization, distributed Redis caching, Laravel job queues at scale, and high-concurrency database indexing by Md Shajib Sikder.">
+  <meta name="author" content="Md Shajib Sikder">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://shajibsikder.github.io/blog.html">
+
+  <!-- OpenGraph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shajibsikder.github.io/blog.html">
+  <meta property="og:title" content="Engineering Insights & Tech Blog — Md Shajib Sikder">
+  <meta property="og:description" content="Technical deep-dives on high-throughput MySQL query optimization, distributed Redis caching, Laravel job queues at scale, and database indexing.">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/127028992?v=4">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Inter Font Stack -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root { color-scheme: dark; }
+    body, input, button, select, textarea, article, p, h1, h2, h3, h4, h5, h6, span, div, a {
+      font-family: 'Inter', ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    }
+    code, pre {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    }
+    body {
+      background-color: #050716;
+      color: #cbd5e1;
+      -webkit-font-smoothing: antialiased;
+      margin: 0; padding: 0; overflow-x: hidden;
+    }
+    .nebula-bg {
+      position: absolute; top: 0; left: 0; right: 0; height: 100vh;
+      background: radial-gradient(circle at 50% 20%, rgba(59, 130, 246, 0.15) 0%, rgba(139, 92, 246, 0.1) 35%, transparent 70%);
+      pointer-events: none; z-index: 0;
+    }
+    .hero-title-glow {
+      background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #f472b6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 0 16px rgba(96, 165, 250, 0.45));
+    }
+    .glass-card {
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(16px);
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .glass-card:hover {
+      background: rgba(30, 41, 59, 0.7);
+      border-color: rgba(96, 165, 250, 0.3);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.5);
+    }
+    #menu-toggle:checked ~ #mobile-menu-overlay { display: flex; }
+    #menu-toggle:checked ~ header label[for="menu-toggle"] .icon-open { display: none; }
+    #menu-toggle:checked ~ header label[for="menu-toggle"] .icon-close { display: block; }
+  </style>
+
+  <!-- Schema.org Blog Collection -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Md Shajib Sikder Technical Blog",
+    "url": "https://shajibsikder.github.io/blog.html",
+    "description": "Backend architecture, MySQL performance tuning, Redis caching strategies, and Laravel scaling articles.",
+    "author": {
+      "@type": "Person",
+      "name": "Md Shajib Sikder",
+      "jobTitle": "Backend Systems Engineer",
+      "url": "https://shajibsikder.github.io"
+    }
+  }
+  </script>
+</head>
+<body class="flex flex-col min-h-screen relative">
+
+  <!-- Mobile Hamburger Menu State -->
+  <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+  <div class="nebula-bg"></div>
+
+  <!-- Navigation -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[#050716]/90 border-b border-slate-800/50">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between relative z-10">
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="text-xl font-bold text-white tracking-tight">Shajib Sikder</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-300">
+        <a href="projects.html" class="hover:text-white transition">Projects</a>
+        <a href="blog.html" class="text-white font-semibold border-b-2 border-blue-500 pb-0.5">Blog</a>
+        <a href="about.html" class="hover:text-white transition">About</a>
+        <a href="contact.html" class="hover:text-white transition">Contact</a>
+        <span class="text-slate-700">|</span>
+        <a href="https://github.com/shajibsikder" target="_blank" aria-label="GitHub" class="hover:text-white transition">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+      </nav>
+
+      <!-- Hamburger Button (Mobile) -->
+      <label for="menu-toggle" class="md:hidden p-2 text-slate-300 hover:text-white cursor-pointer select-none">
+        <svg class="icon-open w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/>
+        </svg>
+        <svg class="icon-close hidden w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </label>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay Menu -->
+  <div id="mobile-menu-overlay" class="fixed inset-0 top-16 bg-[#050716] z-40 hidden flex-col justify-start pt-12 px-8 space-y-6 md:hidden">
+    <a href="projects.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">Projects</a>
+    <a href="blog.html" class="text-3xl font-bold text-blue-400 py-2">Blog</a>
+    <a href="about.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">About</a>
+    <a href="contact.html" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2">Contact</a>
+    <a href="https://github.com/shajibsikder" target="_blank" class="text-3xl font-bold text-slate-200 hover:text-white transition py-2 flex items-center gap-3">
+      <span>GitHub Code</span>
+      <span class="text-xl">↗</span>
+    </a>
+  </div>
+
+  <!-- Content Container -->
+  <main class="flex-grow max-w-4xl mx-auto px-4 sm:px-6 py-12 relative z-10 w-full">
+    
+    <!-- Title Section -->
+    <div class="mb-10 text-center sm:text-left">
+      <h1 class="hero-title-glow text-4xl sm:text-5xl font-extrabold tracking-tight mb-3">
+        Engineering Insights
+      </h1>
+      <p class="text-slate-400 text-lg max-w-2xl">
+        Articles on high-concurrency backend architecture, database query tuning, distributed caching, and scaling async queue systems.
+      </p>
+    </div>
+
+    <!-- Search & Filter Bar -->
+    <div class="mb-10 space-y-4">
+      <div class="relative">
+        <input type="text" id="blogSearch" placeholder="Search technical articles, MySQL, Redis, Laravel..." 
+               class="w-full bg-slate-900/80 border border-slate-700/60 rounded-xl px-4 py-3 pl-11 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-sm transition">
+        <svg class="w-5 h-5 absolute left-3.5 top-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="flex flex-wrap gap-2 text-xs font-medium" id="categoryFilters">
+        <button data-filter="all" class="px-3 py-1.5 rounded-full bg-blue-600/30 text-blue-300 border border-blue-500/40 font-semibold filter-btn">All Topics</button>
+        <button data-filter="mysql" class="px-3 py-1.5 rounded-full bg-slate-900/80 text-slate-400 border border-slate-800 hover:text-slate-200 filter-btn">MySQL & SQL</button>
+        <button data-filter="redis" class="px-3 py-1.5 rounded-full bg-slate-900/80 text-slate-400 border border-slate-800 hover:text-slate-200 filter-btn">Redis & Caching</button>
+        <button data-filter="laravel" class="px-3 py-1.5 rounded-full bg-slate-900/80 text-slate-400 border border-slate-800 hover:text-slate-200 filter-btn">PHP & Laravel</button>
+        <button data-filter="architecture" class="px-3 py-1.5 rounded-full bg-slate-900/80 text-slate-400 border border-slate-800 hover:text-slate-200 filter-btn">System Architecture</button>
+      </div>
+    </div>
+
+    <!-- Article Cards Container -->
+    <div class="grid gap-6" id="blogGrid">
+
+      <!-- Post 1: MySQL Optimization -->
+      <article class="glass-card rounded-2xl p-6 sm:p-7 relative group blog-item" data-category="mysql">
+        <div class="flex flex-wrap items-center gap-3 text-xs text-slate-400 mb-3">
+          <span class="px-2.5 py-1 rounded-md bg-blue-950/70 border border-blue-800/50 text-blue-400 font-semibold">MySQL & SQL</span>
+          <span>•</span>
+          <span>Sep 08, 2026</span>
+          <span>•</span>
+          <span>7 min read</span>
+        </div>
+        <h2 class="text-xl sm:text-2xl font-bold text-white mb-2 group-hover:text-blue-400 transition">
+          <a href="blog-mysql-query-optimization.html">Optimizing High-Throughput MySQL Queries for Sub-10ms Latency</a>
+        </h2>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          A practical guide to analyzing MySQL execution plans, identifying unindexed joins, using covering indexes, and tuning InnoDB buffer pools to achieve low p95 latency under heavy concurrent loads.
+        </p>
+        <div class="flex items-center justify-between text-xs font-semibold pt-2 border-t border-slate-800/60">
+          <span class="text-slate-400">By Md Shajib Sikder</span>
+          <a href="blog-mysql-query-optimization.html" class="text-blue-400 hover:text-blue-300 flex items-center gap-1">
+            Read Technical Guide <span class="group-hover:translate-x-1 transition-transform">→</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- Post 2: Redis Caching Patterns -->
+      <article class="glass-card rounded-2xl p-6 sm:p-7 relative group blog-item" data-category="redis">
+        <div class="flex flex-wrap items-center gap-3 text-xs text-slate-400 mb-3">
+          <span class="px-2.5 py-1 rounded-md bg-rose-950/70 border border-rose-800/50 text-rose-400 font-semibold">Redis & Caching</span>
+          <span>•</span>
+          <span>Aug 24, 2026</span>
+          <span>•</span>
+          <span>6 min read</span>
+        </div>
+        <h2 class="text-xl sm:text-2xl font-bold text-white mb-2 group-hover:text-rose-400 transition">
+          <a href="blog-redis-caching-patterns.html">Distributed Caching Patterns with Redis: Mitigating Cache Stampedes</a>
+        </h2>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          How to prevent database thundering herd problems using Redis distributed locks, probabilistic early expiration, and resilient cache-aside strategies for media and SaaS platforms.
+        </p>
+        <div class="flex items-center justify-between text-xs font-semibold pt-2 border-t border-slate-800/60">
+          <span class="text-slate-400">By Md Shajib Sikder</span>
+          <a href="blog-redis-caching-patterns.html" class="text-rose-400 hover:text-rose-300 flex items-center gap-1">
+            Read Technical Guide <span class="group-hover:translate-x-1 transition-transform">→</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- Post 3: Laravel Queues -->
+      <article class="glass-card rounded-2xl p-6 sm:p-7 relative group blog-item" data-category="laravel">
+        <div class="flex flex-wrap items-center gap-3 text-xs text-slate-400 mb-3">
+          <span class="px-2.5 py-1 rounded-md bg-emerald-950/70 border border-emerald-800/50 text-emerald-400 font-semibold">PHP & Laravel</span>
+          <span>•</span>
+          <span>Jul 18, 2026</span>
+          <span>•</span>
+          <span>8 min read</span>
+        </div>
+        <h2 class="text-xl sm:text-2xl font-bold text-white mb-2 group-hover:text-emerald-400 transition">
+          <a href="blog-laravel-queues-architecture.html">Scaling Laravel Queues & Async Jobs to 50,000+ Operations/Min</a>
+        </h2>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          Architecting robust background queue pipelines with Laravel Horizon, Redis worker pools, job idempotency, rate limiting, and zero-downtime deployment practices.
+        </p>
+        <div class="flex items-center justify-between text-xs font-semibold pt-2 border-t border-slate-800/60">
+          <span class="text-slate-400">By Md Shajib Sikder</span>
+          <a href="blog-laravel-queues-architecture.html" class="text-emerald-400 hover:text-emerald-300 flex items-center gap-1">
+            Read Technical Guide <span class="group-hover:translate-x-1 transition-transform">→</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- Post 4: Database Indexing Strategies -->
+      <article class="glass-card rounded-2xl p-6 sm:p-7 relative group blog-item" data-category="architecture">
+        <div class="flex flex-wrap items-center gap-3 text-xs text-slate-400 mb-3">
+          <span class="px-2.5 py-1 rounded-md bg-purple-950/70 border border-purple-800/50 text-purple-400 font-semibold">System Architecture</span>
+          <span>•</span>
+          <span>Jun 02, 2026</span>
+          <span>•</span>
+          <span>9 min read</span>
+        </div>
+        <h2 class="text-xl sm:text-2xl font-bold text-white mb-2 group-hover:text-purple-400 transition">
+          <a href="blog-database-indexing-strategies.html">Composite Database Indexing: Eliminating Table Scans in High-Concurrency APIs</a>
+        </h2>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          Mastering Leftmost Prefix rules, B-Tree index cardinalities, filtering vs sorting columns, and maintaining low write amplification in high-scale relational databases.
+        </p>
+        <div class="flex items-center justify-between text-xs font-semibold pt-2 border-t border-slate-800/60">
+          <span class="text-slate-400">By Md Shajib Sikder</span>
+          <a href="blog-database-indexing-strategies.html" class="text-purple-400 hover:text-purple-300 flex items-center gap-1">
+            Read Technical Guide <span class="group-hover:translate-x-1 transition-transform">→</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- No results message -->
+    <div id="noResults" class="hidden text-center py-12 text-slate-500 text-sm">
+      No technical articles match your search filter.
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/60 bg-[#050716]/90 py-8 relative z-10 text-xs text-slate-500">
+    <div class="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div>
+        © 2026 Md Shajib Sikder. All rights reserved.
+      </div>
+      <div class="flex gap-4">
+        <a href="projects.html" class="hover:text-slate-300 transition">Projects</a>
+        <a href="blog.html" class="hover:text-slate-300 transition">Blog</a>
+        <a href="about.html" class="hover:text-slate-300 transition">About</a>
+        <a href="contact.html" class="hover:text-slate-300 transition">Contact</a>
+        <a href="privacy.html" class="hover:text-slate-300 transition">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Search & Filter Script -->
+  <script>
+    const blogSearch = document.getElementById('blogSearch');
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const blogItems = document.querySelectorAll('.blog-item');
+    const noResults = document.getElementById('noResults');
+
+    let currentFilter = 'all';
+
+    function filterPosts() {
+      const query = blogSearch.value.toLowerCase().trim();
+      let visibleCount = 0;
+
+      blogItems.forEach(item => {
+        const title = item.querySelector('h2').innerText.toLowerCase();
+        const text = item.querySelector('p').innerText.toLowerCase();
+        const category = item.dataset.category;
+
+        const matchesCategory = (currentFilter === 'all' || category === currentFilter);
+        const matchesQuery = (title.includes(query) || text.includes(query));
+
+        if (matchesCategory && matchesQuery) {
+          item.style.display = 'block';
+          visibleCount++;
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      if (visibleCount === 0) {
+        noResults.classList.remove('hidden');
+      } else {
+        noResults.classList.add('hidden');
+      }
+    }
+
+    blogSearch.addEventListener('input', filterPosts);
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => {
+          b.className = 'px-3 py-1.5 rounded-full bg-slate-900/80 text-slate-400 border border-slate-800 hover:text-slate-200 filter-btn';
+        });
+        btn.className = 'px-3 py-1.5 rounded-full bg-blue-600/30 text-blue-300 border border-blue-500/40 font-semibold filter-btn';
+        currentFilter = btn.dataset.filter;
+        filterPosts();
+      });
+    });
+  </script>
+</body>
+</html>
