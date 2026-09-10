@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://shajibsikder.github.io/</loc>
+    <loc>https://shajibsikder.github.io/shajibsikder/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://shajibsikder.github.io/projects.html</loc>
+    <loc>https://shajibsikder.github.io/shajibsikder/projects.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://shajibsikder.github.io/blog.html</loc>
+    <loc>https://shajibsikder.github.io/shajibsikder/blog.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://shajibsikder.github.io/blog-mysql-query-optimization.html</loc>
+    <loc>https://shajibsikder.github.io/shajibsikder/blog-mysql-query-optimization.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shajibsikder.github.io/blog-redis-caching-patterns.html</loc>
+    <loc>https://shajibsikder.github.io/shajibsikder/blog-redis-caching-patterns.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shajibsikder.github.io/blog-laravel-queues-architecture.html</loc>
+    <loc>https://shajibsikder.github.io/shajibsikder/blog-laravel-queues-architecture.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shajibsikder.github.io/blog-database-indexing-strategies.html</loc>
+    <loc>https://shajibsikder.github.io/shajibsikder/blog-database-indexing-strategies.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shajibsikder.github.io/about.html</loc>
+    <loc>https://shajibsikder.github.io/shajibsikder/about.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shajibsikder.github.io/contact.html</loc>
+    <loc>https://shajibsikder.github.io/shajibsikder/contact.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shajibsikder.github.io/privacy.html</loc>
+    <loc>https://shajibsikder.github.io/shajibsikder/privacy.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
