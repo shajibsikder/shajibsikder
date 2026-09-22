@@ -53,24 +53,27 @@ Currently handling system architecture at **Weekmotion**, optimizing core workfl
 ---
 
 <details>
-  <summary>
-<b>🏆 Client-Facing Platforms & Architectures Shipped</b> </summary>
+  <summary><b>🏗️ Production Systems & Backend Engineering</b></summary>
 
-> Scalable software systems engineered and deployed for real-world production environments.
+> Selected production systems I’ve designed, developed, optimized, and deployed across web platforms, marketplaces, CMSs, and backend services.
 
-| Project System | Engineering Focus | Link |
+| Project | Engineering Focus | Link |
 | :--- | :--- | :---: |
-| 🎬 **Weekmotion** | Built a modular media backend with sequential chunk uploads, reducing web server process blocking spikes from 45% down to less than 15% via Redis async background queues. | [Visit](https://weekmotion.com/) |
-| 📰 **Jagatbarta** | Engineered a multi-tenant CMS increasing the Redis cache hit rate from 65% to 92% on core article endpoints, successfully eliminating disk I/O bottlenecks. | [Visit](https://jagatbarta.top/) |
-| 🏥 **All Doctors** | Implemented precise transaction isolation levels and row-level locking (`SELECT FOR UPDATE`), guaranteeing zero double-bookings across 500+ concurrent sessions. | [Visit](https://alldoctorskhulna.com/) |
-| 📦 **Microloop** | Developed a freelance marketplace using a stateless token infrastructure, handling secure digital license validation and scalable checkouts. | [View](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
-| 💻 **ARCreative** | Refactored internal background jobs and heavy asset optimization loops, drastically reducing server execution response delays. | [Visit](https://arcreativetechnology.com/) |
-| 💻 **DBN IT** | Tuned request-response routing loops and eliminated eager-loading query data bottlenecks to maintain highly predictable throughput. | [Visit](https://www.dbnit.com/) |
-| 📰 **DBN News** | Configured multi-tier caching architectures to seamlessly absorb unpredicted traffic spikes without connection pool starvation. | [Visit](https://dbnnews.com/) |
-| 📰 **Doyel24** | Engineered specialized relational data caching layers, reducing read-heavy database hit rates during real-time updates. | [Visit](https://doyel24.com/) |
-| 📰 **Tribune** | Orchestrated robust backend systems designed for low infrastructure overhead and fast server-side hydration cycles under load. | [Visit](https://primetribune.net/) |
-| 🏫 **School** | Developed a modern educational website with responsive architecture, structured content management, and optimized page delivery for reliable long-term administration. | [Visit](http://chowbariamalshirahighschool.edu.bd/) |
-| 🤝 **Servic** | Engineered a secure service marketplace with scalable order workflows, role-based access control, and optimized backend request processing. | [Visit](https://servicepartner.online/) |
+| 🎬 **Weekmotion** | Built a modular media backend with sequential chunk uploads and Redis-backed asynchronous queues, reducing web-server process blocking spikes from ~45% to <15%. | [Visit](https://weekmotion.com/) |
+| 🧩 **Tabvora** | Built a privacy-first, local-first Manifest V3 Chrome extension with local storage, workspace grouping, and session crash recovery without telemetry. | [Install](https://chromewebstore.google.com/detail/tabvora-smart-tab-session/ibejmhkigcbnfnobfkeebfnpodlpgjab) |
+| 📰 **Articla** | Developed an article monetization CMS with multi-layer caching, dynamic FAQ schema, and country-specific CPM payout rules. | [View](https://www.codester.com/items/71007/articla-paid-article-submission-and-revenue?ref=weekmotion) |
+| 💼 **Quidustry** | Developed a microjob marketplace with multi-gateway wallet architecture, automated proof verification, and referral management. | [Visit](https://quidustry.com/) |
+| 📰 **Jagatbarta** | Optimized a multi-tenant CMS and increased Redis cache hit rate on core article endpoints from ~65% to ~92%, reducing database and disk I/O pressure. | [Visit](https://jagatbarta.top/) |
+| 🏥 **All Doctors** | Implemented database transactions, row-level locking, and `SELECT FOR UPDATE` to prevent concurrent booking conflicts. | [Visit](https://alldoctorskhulna.com/) |
+| 📦 **Microloop** | Developed a freelance marketplace with stateless token-based authentication, digital license validation, and scalable checkout workflows. | [View](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
+| 💻 **ARCreative** | Optimized background jobs and heavy asset-processing workflows to reduce server-side execution overhead. | [Visit](https://arcreativetechnology.com/) |
+| 💻 **DBN IT** | Optimized request handling and database access patterns, reducing unnecessary eager-loaded data and improving backend throughput. | [Visit](https://www.dbnit.com/) |
+| 📰 **DBN News** | Implemented multi-tier caching to handle traffic spikes while reducing database connection pressure. | [Visit](https://dbnnews.com/) |
+| 📰 **Doyel24** | Implemented relational data caching strategies to reduce database load on read-heavy real-time operations. | [Visit](https://doyel24.com/) |
+| 📰 **Tribune** | Developed backend workflows optimized for low infrastructure overhead and efficient server-side content delivery. | [Visit](https://primetribune.net/) |
+| 🏫 **School** | Developed a responsive educational CMS with structured content management and optimized page delivery. | [Visit](http://chowbariamalshirahighschool.edu.bd/) |
+| 🤝 **Service Partner** | Built a service marketplace with role-based access control, order workflows, and optimized backend request processing. | [Visit](https://servicepartner.online/) |
+| 💼 **JobClickBD** | Built a localized micro-task marketplace with bKash/Nagad integration, proof validation, and referral workflows. | [Visit](https://jobclickbd.fun/) |
 
 </details>
 
