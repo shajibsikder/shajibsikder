@@ -65,6 +65,7 @@ Currently handling system architecture at **Weekmotion**, optimizing core workfl
 | 💼 **Quidustry** | Developed a microjob marketplace with multi-gateway wallet architecture, automated proof verification, and referral management. | [Visit](https://quidustry.com/) |
 | 📰 **Jagatbarta** | Optimized a multi-tenant CMS and increased Redis cache hit rate on core article endpoints from ~65% to ~92%, reducing database and disk I/O pressure. | [Visit](https://jagatbarta.top/) |
 | 🏥 **All Doctors** | Implemented database transactions, row-level locking, and `SELECT FOR UPDATE` to prevent concurrent booking conflicts. | [Visit](https://alldoctorskhulna.com/) |
+| 🏫 **Aiorpara School** | Developed a secure .edu.bd school portal with structured academic notice archives, multi-tier teacher authentication, and responsive media galleries. | [Visit](https://aiorparahighschool.edu.bd/) |
 | 📦 **Microloop** | Developed a freelance marketplace with stateless token-based authentication, digital license validation, and scalable checkout workflows. | [View](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
 | 💻 **ARCreative** | Optimized background jobs and heavy asset-processing workflows to reduce server-side execution overhead. | [Visit](https://arcreativetechnology.com/) |
 | 💻 **DBN IT** | Optimized request handling and database access patterns, reducing unnecessary eager-loaded data and improving backend throughput. | [Visit](https://www.dbnit.com/) |
@@ -74,6 +75,7 @@ Currently handling system architecture at **Weekmotion**, optimizing core workfl
 | 🏫 **School** | Developed a responsive educational CMS with structured content management and optimized page delivery. | [Visit](http://chowbariamalshirahighschool.edu.bd/) |
 | 🤝 **Service Partner** | Built a service marketplace with role-based access control, order workflows, and optimized backend request processing. | [Visit](https://servicepartner.online/) |
 | 💼 **JobClickBD** | Built a localized micro-task marketplace with bKash/Nagad integration, proof validation, and referral workflows. | [Visit](https://jobclickbd.fun/) |
+| 🏫 **Sadapur School** | Engineered a government-standard .edu.bd educational CMS with digital notice boards, role-based staff authentication, and optimized asset delivery. | [Visit](https://sadapurkharibarihighschool.edu.bd/) |
 
 </details>
 
