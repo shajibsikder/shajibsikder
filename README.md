@@ -63,8 +63,9 @@ Currently handling system architecture at **Weekmotion**, optimizing core workfl
 | 🧩 **Tabvora** | Built a privacy-first, local-first Manifest V3 Chrome extension with local storage, workspace grouping, and session crash recovery without telemetry. | [Install](https://chromewebstore.google.com/detail/tabvora-smart-tab-session/ibejmhkigcbnfnobfkeebfnpodlpgjab) |
 | 📰 **Articla** | Developed an article monetization CMS with multi-layer caching, dynamic FAQ schema, and country-specific CPM payout rules. | [View](https://www.codester.com/items/71007/articla-paid-article-submission-and-revenue?ref=weekmotion) |
 | 💼 **Quidustry** | Developed a microjob marketplace with multi-gateway wallet architecture, automated proof verification, and referral management. | [Visit](https://quidustry.com/) |
-| 📰 **Jagatbarta** | Optimized a multi-tenant CMS and increased Redis cache hit rate on core article endpoints from ~65% to ~92%, reducing database and disk I/O pressure. | [Visit](https://jagatbarta.top/) |
+| 📰 **Jagatbarta** | Optimized a multi-tenant CMS and increased Redis cache hit rate on core article endpoints from ~65% to ~92%, reducing database and disk I/O pressure. | [Visit](https://jagatbarta.com/) |
 | 🏥 **All Doctors** | Implemented database transactions, row-level locking, and `SELECT FOR UPDATE` to prevent concurrent booking conflicts. | [Visit](https://alldoctorskhulna.com/) |
+| 📰 **Chattal Beat** | Engineered a news publishing CMS with multi-user editorial workflows, content management, and advertisement integration. | [Visit](https://chattalbeat.com/) |
 | 🏫 **Aiorpara School** | Developed a secure .edu.bd school portal with structured academic notice archives, multi-tier teacher authentication, and responsive media galleries. | [Visit](https://aiorparahighschool.edu.bd/) |
 | 📦 **Microloop** | Developed a freelance marketplace with stateless token-based authentication, digital license validation, and scalable checkout workflows. | [View](https://www.codester.com/items/63796/microloop-micro-job-and-freelance-platform) |
 | 💻 **ARCreative** | Optimized background jobs and heavy asset-processing workflows to reduce server-side execution overhead. | [Visit](https://arcreativetechnology.com/) |
@@ -76,6 +77,9 @@ Currently handling system architecture at **Weekmotion**, optimizing core workfl
 | 🤝 **Service Partner** | Built a service marketplace with role-based access control, order workflows, and optimized backend request processing. | [Visit](https://servicepartner.online/) |
 | 💼 **JobClickBD** | Built a localized micro-task marketplace with bKash/Nagad integration, proof validation, and referral workflows. | [Visit](https://jobclickbd.fun/) |
 | 🏫 **Sadapur School** | Engineered a government-standard .edu.bd educational CMS with digital notice boards, role-based staff authentication, and optimized asset delivery. | [Visit](https://sadapurkharibarihighschool.edu.bd/) |
+| 🏫 **Aiorpara** | Developed an educational portal with academic notice management, teacher authentication, and responsive media galleries. | [Visit](https://aiorparahighschool.edu.bd/) |
+| 🛡️ **SecurityZone** | Built an e-commerce platform with order management, payment integration, and automated courier workflows. | [Visit](https://securityzonebd.com/) |
+| 📰 **Lalmonir Kantho** | Developed a digital news platform with structured content publishing, category management, and responsive delivery. | [Visit](https://lalmonirkantho.online/) |
 
 </details>
 
