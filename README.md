@@ -1,4 +1,4 @@
-### Backend Engineer | Full-Stack Systems Developer
+### Full-Stack Systems Developer
 
 I design and build scalable backend systems, REST APIs, and web applications with a focus on performance, reliability, and maintainability.
 
