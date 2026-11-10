@@ -31,22 +31,20 @@ Currently handling system architecture at **Weekmotion**, optimizing core workfl
 
 <table>
   <tr>
-    <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PHP-Dark.svg" width="50" /><br>PHP</td>
-    <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Laravel-Dark.svg" width="50" /><br>Laravel</td>
-    <td align="center" width="96"><img src="https://techstack-generator.vercel.app/js-icon.svg" width="50" /><br>JavaScript</td>
-    <td align="center" width="96"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="50" /><br>MySQL</td>
-    <td align="center" width="96"><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="50" /><br>REST API</td>
-    <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg" width="50" /><br>NodeJS</td>
-    <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" width="50" /><br>Tailwind</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/html5.svg" width="48" height="48" alt="HTML5" /><br>HTML5</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/css3.svg" width="48" height="48" alt="CSS3" /><br>CSS3</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/javascript.svg" width="48" height="48" alt="JavaScript" /><br>JavaScript</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/typescript.svg" width="48" height="48" alt="TypeScript" /><br>TypeScript</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/react.svg" width="48" height="48" alt="React" /><br>React</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/nodejs.svg" width="48" height="48" alt="NodeJS" /><br>NodeJS</td>
   </tr>
   <tr>
-    <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Linux-Dark.svg" width="45" /><br>Linux</td>
-    <td align="center" width="96"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="45" /><br>Nginx</td>
-    <td align="center" width="96"><img src="https://techstack-generator.vercel.app/docker-icon.svg" width="45" /><br>Docker</td>
-    <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Redis-Dark.svg" width="45" /><br>Redis</td>
-    <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg" width="45" /><br>Git</td>
-    <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg" width="45" /><br>GitHub</td>
-    <td align="center" width="96"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VSCode-Dark.svg" width="45" /><br>VSCode</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/php.svg" width="48" height="48" alt="PHP" /><br>PHP</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/laravel.svg" width="48" height="48" alt="Laravel" /><br>Laravel</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/mysql.svg" width="48" height="48" alt="MySQL" /><br>MySQL</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/mongodb.svg" width="48" height="48" alt="MongoDB" /><br>MongoDB</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/git.svg" width="48" height="48" alt="Git" /><br>Git</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/shajibsikder/shajibsikder/main/icons/cloudflare.svg" width="48" height="48" alt="Cloudflare" /><br>Cloudflare</td>
   </tr>
 </table>
 
